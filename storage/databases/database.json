@@ -1,7 +1,7 @@
 {
   "users": {
     "51958333972@s.whatsapp.net": {
-      "exp": 222,
+      "exp": 230,
       "limit": 10,
       "registered": false,
       "name": "+51 958 333 972",
@@ -12,7 +12,7 @@
       "coins": 0
     },
     "114263544885392@lid": {
-      "exp": 1224,
+      "exp": 1260,
       "limit": 10,
       "registered": false,
       "name": "𝗦𝘂𝗻𝗸𝗼𝘃𝘃 </>",
@@ -68,7 +68,7 @@
       "Subs": 1756205265205
     },
     "573206534465@s.whatsapp.net": {
-      "exp": 211,
+      "exp": 218,
       "limit": 10,
       "registered": false,
       "name": "∞★꧁☯︎furrito2☯︎꧂★∞",
@@ -223,7 +223,7 @@
       "coins": 0
     },
     "132929590181978@lid": {
-      "exp": 137,
+      "exp": 68,
       "limit": 10,
       "registered": false,
       "name": "Gloader",
@@ -826,7 +826,7 @@
       "coins": 0
     },
     "51901437507@s.whatsapp.net": {
-      "exp": 26,
+      "exp": 55,
       "limit": 10,
       "registered": false,
       "name": "𝗦𝘂𝗻𝗸𝗼𝘃𝘃 </>",
@@ -841,6 +841,17 @@
       "limit": 10,
       "registered": false,
       "name": "+53 5 9576004",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
+    },
+    "584244309723@s.whatsapp.net": {
+      "exp": 10,
+      "limit": 10,
+      "registered": false,
+      "name": "Gloader",
       "age": -1,
       "regTime": -1,
       "banned": false,
@@ -1096,14 +1107,30 @@
       "onlyLatinos": false,
       "nsfw": false,
       "expired": 0
+    },
+    "120363421435621230@g.us": {
+      "isBanned": false,
+      "bienvenida": true,
+      "antiLink": false,
+      "onlyLatinos": false,
+      "nsfw": false,
+      "expired": 0
+    },
+    "584244309723@s.whatsapp.net": {
+      "isBanned": false,
+      "bienvenida": true,
+      "antiLink": false,
+      "onlyLatinos": false,
+      "nsfw": false,
+      "expired": 0
     }
   },
   "stats": {
     "main-menu.js": {
-      "total": 9,
-      "success": 9,
-      "last": 1756241097604,
-      "lastSuccess": 1756241097604
+      "total": 10,
+      "success": 10,
+      "last": 1756241514652,
+      "lastSuccess": 1756241514652
     },
     "sub-bots.js": {
       "total": 2,
@@ -1250,16 +1277,22 @@
       "lastSuccess": 1756230930604
     },
     "perfiles-perfil.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1756207754300,
-      "lastSuccess": 1756207754300
+      "total": 3,
+      "success": 3,
+      "last": 1756241694119,
+      "lastSuccess": 1756241694119
     },
     "owner-update.js": {
       "total": 1,
       "success": 1,
       "last": 1756241141690,
       "lastSuccess": 1756241141690
+    },
+    "modo-hot.js": {
+      "total": 1,
+      "success": 1,
+      "last": 1756241911265,
+      "lastSuccess": 1756241911265
     }
   },
   "msgs": {},
@@ -1284,6 +1317,9 @@
   },
   "antiLink": {
     "120363420102608901@g.us": true,
+    "120363419764426260@g.us": true
+  },
+  "modoHot": {
     "120363419764426260@g.us": true
   }
 }
