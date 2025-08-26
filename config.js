@@ -20,7 +20,7 @@ global.sessions = 'Sessions'
 global.bot = 'Serbot' 
 global.AFBots = true
 
-global.packname = 'PAIN COMMUNITY'
+global.packname = '𓆩 𝗣𝗔𝗜𝗡 𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬 𓆪'
 global.namebot = 'PAIN BOT'
 global.author = 'Sunkovv'
 

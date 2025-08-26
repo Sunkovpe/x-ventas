@@ -1,7 +1,7 @@
 {
   "users": {
     "51958333972@s.whatsapp.net": {
-      "exp": 219,
+      "exp": 222,
       "limit": 10,
       "registered": false,
       "name": "+51 958 333 972",
@@ -12,7 +12,7 @@
       "coins": 0
     },
     "114263544885392@lid": {
-      "exp": 1211,
+      "exp": 1224,
       "limit": 10,
       "registered": false,
       "name": "𝗦𝘂𝗻𝗸𝗼𝘃𝘃 </>",
@@ -68,7 +68,7 @@
       "Subs": 1756205265205
     },
     "573206534465@s.whatsapp.net": {
-      "exp": 106,
+      "exp": 211,
       "limit": 10,
       "registered": false,
       "name": "∞★꧁☯︎furrito2☯︎꧂★∞",
@@ -190,8 +190,8 @@
       "coins": 0
     },
     "5216673465701@s.whatsapp.net": {
-      "exp": 50,
-      "limit": 10,
+      "exp": null,
+      "limit": null,
       "registered": false,
       "name": "Femboy🏳️‍⚧️ uwu",
       "age": -1,
@@ -256,7 +256,7 @@
       "coins": 0
     },
     "227367465308298@lid": {
-      "exp": 123,
+      "exp": 5,
       "limit": 10,
       "registered": false,
       "name": "Julian",
@@ -278,7 +278,7 @@
       "coins": 0
     },
     "47798825300091@lid": {
-      "exp": 107,
+      "exp": 27,
       "limit": 10,
       "registered": false,
       "name": "diana Hbbt51",
@@ -300,7 +300,7 @@
       "coins": 0
     },
     "169397872267445@lid": {
-      "exp": 63,
+      "exp": 6,
       "limit": 10,
       "registered": false,
       "name": "Cristopher",
@@ -311,7 +311,7 @@
       "coins": 0
     },
     "58158538080478@lid": {
-      "exp": 127,
+      "exp": 21,
       "limit": 10,
       "registered": false,
       "name": "Fabio Herrera",
@@ -607,8 +607,8 @@
       "coins": 0
     },
     "35661717483565@lid": {
-      "exp": 12,
-      "limit": 10,
+      "exp": null,
+      "limit": null,
       "registered": false,
       "name": ":)",
       "age": -1,
@@ -815,10 +815,32 @@
       "coins": 0
     },
     "91143937241143@lid": {
-      "exp": 7,
+      "exp": 24,
       "limit": 10,
       "registered": false,
       "name": "cmd",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
+    },
+    "51901437507@s.whatsapp.net": {
+      "exp": 26,
+      "limit": 10,
+      "registered": false,
+      "name": "𝗦𝘂𝗻𝗸𝗼𝘃𝘃 </>",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
+    },
+    "5359576004@s.whatsapp.net": {
+      "exp": 6,
+      "limit": 10,
+      "registered": false,
+      "name": "+53 5 9576004",
       "age": -1,
       "regTime": -1,
       "banned": false,
@@ -1066,14 +1088,22 @@
       "onlyLatinos": false,
       "nsfw": false,
       "expired": 0
+    },
+    "51901437507@s.whatsapp.net": {
+      "isBanned": false,
+      "bienvenida": true,
+      "antiLink": false,
+      "onlyLatinos": false,
+      "nsfw": false,
+      "expired": 0
     }
   },
   "stats": {
     "main-menu.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1756237829877,
-      "lastSuccess": 1756237829877
+      "total": 9,
+      "success": 9,
+      "last": 1756241097604,
+      "lastSuccess": 1756241097604
     },
     "sub-bots.js": {
       "total": 2,
@@ -1224,6 +1254,12 @@
       "success": 2,
       "last": 1756207754300,
       "lastSuccess": 1756207754300
+    },
+    "owner-update.js": {
+      "total": 1,
+      "success": 1,
+      "last": 1756241141690,
+      "lastSuccess": 1756241141690
     }
   },
   "msgs": {},

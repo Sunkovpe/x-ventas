@@ -119,7 +119,7 @@ const isBotAdmin = bot?.admin || false
 const ___dirname = path.join(path.dirname(fileURLToPath(import.meta.url)), './plugins')  
 
 global.idcanal = '120363403162100537@newsletter'  
-global.namecanal = 'PAIN COMMUNITY'  
+global.namecanal = '𓆩 𝗣𝗔𝗜𝗡 𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬 𓆪'  
 global.rcanal = {  
   contextInfo: {  
     isForwarded: true,  
