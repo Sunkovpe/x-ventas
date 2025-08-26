@@ -3,15 +3,13 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['51942501966', 'Sung', true],
   ['51901437507', 'Sunkovv', true],
 ]
 
 
 global.ownerLid = [
   ['114263544885392', 'Sunkovv', true],
-  ['78186205446362', 'Sung', true],
-  ['38148520288338', 'Sung2', true],
+  ['58540639154396', 'Kevin', true],
 
 
 ]
@@ -31,7 +29,7 @@ global.ch = {
 ch1: '120363403162100537@newsletter',
 }
 
-global.mods = []
+global.mods =   []
 global.prems = []
 
 global.multiplier = 69 
