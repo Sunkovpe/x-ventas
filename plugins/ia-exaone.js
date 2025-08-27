@@ -2,7 +2,7 @@ import axios from 'axios'
 
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) return conn.sendMessage(m.chat, {
-    text: `*[❗] Debes ingresar un texto para consultar a Llama.*\n*Ejemplo:* ${usedPrefix + command} ¿Quién eres?`,
+    text: `*[❗] Debes ingresar un texto para consultar a Exaone.*\n*Ejemplo:* ${usedPrefix + command} ¿Quién eres?`,
     contextInfo: {
       ...rcanal.contextInfo
     }
@@ -11,13 +11,13 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   try {
     
     const searchQuery = encodeURIComponent(text)
-    const apiUrl = `https://bytebazz-api.koyeb.app/api/ai/model/llama-3?texto=${searchQuery}&apikey=8jkh5icbf05`
+    const apiUrl = `https://bytebazz-api.koyeb.app/api/ai/model/exaone?texto=${searchQuery}&apikey=8jkh5icbf05`
     
     const { data } = await axios.get(apiUrl)
     
     if (!data.status) {
       return conn.sendMessage(m.chat, {
-        text: '*[❗] No se pudo obtener una respuesta de la API de Llama.*',
+        text: '*[❗] No se pudo obtener una respuesta de la API de Exaone.*',
         contextInfo: {
           ...rcanal.contextInfo
         }
@@ -43,6 +43,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.help = ['#llama <texto>']
 handler.tags = ['inteligencia']
-handler.command = ['llama', 'meta', 'llama3']
+handler.command = ['exaone']
 
 export default handler

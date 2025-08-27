@@ -1,7 +1,7 @@
 {
   "users": {
     "51958333972@s.whatsapp.net": {
-      "exp": 345,
+      "exp": 427,
       "limit": 10,
       "registered": false,
       "name": "+51 958 333 972",
@@ -12,7 +12,7 @@
       "coins": 0
     },
     "114263544885392@lid": {
-      "exp": 244,
+      "exp": 33,
       "limit": 10,
       "registered": false,
       "name": "𝗦𝘂𝗻𝗸𝗼𝘃𝘃 </>",
@@ -25,7 +25,7 @@
       "lastDaily": 1756243293743
     },
     "58540639154396@lid": {
-      "exp": 125,
+      "exp": 191,
       "limit": 10,
       "registered": false,
       "name": "⠀︎⠀ ⠀ ⠀ᅠ⠀",
@@ -47,7 +47,7 @@
       "coins": 0
     },
     "185345505243351@lid": {
-      "exp": 17,
+      "exp": 14,
       "limit": 10,
       "registered": false,
       "name": "TItix🔥",
@@ -225,7 +225,7 @@
       "coins": 0
     },
     "132929590181978@lid": {
-      "exp": 603,
+      "exp": 150,
       "limit": 10,
       "registered": false,
       "name": "Gloader",
@@ -565,7 +565,7 @@
       "coins": 0
     },
     "270613105139841@lid": {
-      "exp": 18,
+      "exp": 269,
       "limit": 10,
       "registered": false,
       "name": "⁂ 𝔾𝕏𝔹𝕆꧂™",
@@ -707,7 +707,7 @@
       "coins": 0
     },
     "167680455790687@lid": {
-      "exp": 4,
+      "exp": 10,
       "limit": 10,
       "registered": false,
       "name": "NO APTO PARA GORDAS",
@@ -718,7 +718,7 @@
       "coins": 0
     },
     "246561758015609@lid": {
-      "exp": 9,
+      "exp": 12,
       "limit": 10,
       "registered": false,
       "name": "🐦‍🔥Juanito 🦞",
@@ -773,7 +773,7 @@
       "coins": 0
     },
     "62548263080187@lid": {
-      "exp": 22,
+      "exp": 44,
       "limit": 10,
       "registered": false,
       "name": "HEYTAN",
@@ -795,7 +795,7 @@
       "coins": 0
     },
     "72989227901155@lid": {
-      "exp": 8,
+      "exp": 32,
       "limit": 10,
       "registered": false,
       "name": "◤MH 亗 | All@sgαr_12◢",
@@ -828,7 +828,7 @@
       "coins": 0
     },
     "51901437507@s.whatsapp.net": {
-      "exp": 55,
+      "exp": 7,
       "limit": 10,
       "registered": false,
       "name": "𝗦𝘂𝗻𝗸𝗼𝘃𝘃 </>",
@@ -865,6 +865,71 @@
     },
     "232435140849670@lid": {
       "banned": true
+    },
+    "77747984584873@lid": {
+      "exp": 17,
+      "limit": 10,
+      "registered": false,
+      "name": "milaon",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
+    },
+    "72645596958821@lid": {
+      "exp": 6,
+      "limit": 10,
+      "registered": false,
+      "name": "PHOENIX.0",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
+    },
+    "110089205772325@lid": {
+      "exp": 39,
+      "limit": 10,
+      "registered": false,
+      "name": "Heytan Rodrigo ✌🏻",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
+    },
+    "239273164963865@lid": {
+      "exp": 77,
+      "limit": 10,
+      "registered": false,
+      "name": "Cheo 🦦",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
+    },
+    "120363403143798163@newsletter": {
+      "exp": 7,
+      "limit": 10,
+      "registered": false,
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
+    },
+    "40510802640995@lid": {
+      "exp": 8,
+      "limit": 10,
+      "registered": false,
+      "name": "–",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
     }
   },
   "chats": {
@@ -1131,6 +1196,14 @@
       "onlyLatinos": false,
       "nsfw": false,
       "expired": 0
+    },
+    "120363403143798163@newsletter": {
+      "isBanned": false,
+      "bienvenida": true,
+      "antiLink": false,
+      "onlyLatinos": false,
+      "nsfw": false,
+      "expired": 0
     }
   },
   "stats": {
@@ -1165,16 +1238,16 @@
       "lastSuccess": 1756202187870
     },
     "play.js": {
-      "total": 9,
-      "success": 9,
-      "last": 1756206820910,
-      "lastSuccess": 1756206820910
+      "total": 11,
+      "success": 11,
+      "last": 1756300909542,
+      "lastSuccess": 1756300909542
     },
     "play2.js": {
-      "total": 23,
-      "success": 23,
-      "last": 1756242804360,
-      "lastSuccess": 1756242804360
+      "total": 27,
+      "success": 27,
+      "last": 1756301565866,
+      "lastSuccess": 1756301565866
     },
     "top-feos.js": {
       "total": 1,
@@ -1183,10 +1256,10 @@
       "lastSuccess": 1756202371257
     },
     "top-gays.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1756242630293,
-      "lastSuccess": 1756242630293
+      "total": 12,
+      "success": 12,
+      "last": 1756308563164,
+      "lastSuccess": 1756308563164
     },
     "sticker-toimg.js": {
       "total": 2,
@@ -1195,10 +1268,10 @@
       "lastSuccess": 1756202683332
     },
     "stickers-sticker.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1756207547928,
-      "lastSuccess": 1756207547928
+      "total": 4,
+      "success": 4,
+      "last": 1756255272636,
+      "lastSuccess": 1756255272636
     },
     "xvideos.js": {
       "total": 10,
@@ -1213,10 +1286,10 @@
       "lastSuccess": 1756202713743
     },
     "subbots-botinfo.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1756203072335,
-      "lastSuccess": 1756203072335
+      "total": 4,
+      "success": 4,
+      "last": 1756301682008,
+      "lastSuccess": 1756301682008
     },
     "modo-ia.js": {
       "total": 4,
@@ -1231,10 +1304,10 @@
       "lastSuccess": 1756243283345
     },
     "tag-all.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1756244802506,
-      "lastSuccess": 1756244802506
+      "total": 10,
+      "success": 10,
+      "last": 1756306671054,
+      "lastSuccess": 1756306671054
     },
     "group-promote.js": {
       "total": 3,
@@ -1255,10 +1328,10 @@
       "lastSuccess": 1756205151119
     },
     "ia-deepseek.js": {
-      "total": 4,
-      "success": 4,
-      "last": 1756206569826,
-      "lastSuccess": 1756206569826
+      "total": 7,
+      "success": 7,
+      "last": 1756306066014,
+      "lastSuccess": 1756306066014
     },
     "serbot-serbot.js": {
       "total": 5,
@@ -1273,16 +1346,16 @@
       "lastSuccess": 1756206212212
     },
     "ia-llama3.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1756206283738,
-      "lastSuccess": 1756206283738
+      "total": 24,
+      "success": 24,
+      "last": 1756302096545,
+      "lastSuccess": 1756302096545
     },
     "tiktok-search.js": {
-      "total": 26,
-      "success": 26,
-      "last": 1756230930604,
-      "lastSuccess": 1756230930604
+      "total": 27,
+      "success": 27,
+      "last": 1756255155156,
+      "lastSuccess": 1756255155156
     },
     "perfiles-perfil.js": {
       "total": 3,
@@ -1327,16 +1400,28 @@
       "lastSuccess": 1756244423475
     },
     "get-id.js": {
-      "total": 1,
-      "success": 1,
-      "last": 1756244490925,
-      "lastSuccess": 1756244490925
+      "total": 3,
+      "success": 3,
+      "last": 1756263850147,
+      "lastSuccess": 1756263850147
     },
     "group-kick.js": {
       "total": 2,
       "success": 2,
       "last": 1756245108811,
       "lastSuccess": 1756245108811
+    },
+    "google-search.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1756255264345,
+      "lastSuccess": 1756255264345
+    },
+    "anti-spam.js": {
+      "total": 1,
+      "success": 1,
+      "last": 1756301615746,
+      "lastSuccess": 1756301615746
     }
   },
   "msgs": {},
@@ -1370,6 +1455,61 @@
     "120363419764426260@g.us": {
       "enabled": false,
       "limit": 100
+    }
+  },
+  "antiSpam": {
+    "120363419764426260@g.us": true
+  },
+  "spamCount": {
+    "120363419764426260@g.us": {
+      "77747984584873@lid": {
+        "count": 1,
+        "lastMessage": 1756301650627,
+        "messages": [
+          {
+            "remoteJid": "120363419764426260@g.us",
+            "fromMe": false,
+            "id": "4C9D03FC4F2E2BF3492C41FB0FC52548",
+            "participant": "77747984584873@lid"
+          }
+        ]
+      },
+      "239273164963865@lid": {
+        "count": 1,
+        "lastMessage": 1756306296610,
+        "messages": [
+          {
+            "remoteJid": "120363419764426260@g.us",
+            "fromMe": false,
+            "id": "665EB8F7451664A616FECE8ADC369017",
+            "participant": "239273164963865@lid"
+          }
+        ]
+      },
+      "246561758015609@lid": {
+        "count": 1,
+        "lastMessage": 1756306448100,
+        "messages": [
+          {
+            "remoteJid": "120363419764426260@g.us",
+            "fromMe": false,
+            "id": "8B1D570B773CDECD71CE4EA020239A11",
+            "participant": "246561758015609@lid"
+          }
+        ]
+      },
+      "40510802640995@lid": {
+        "count": 1,
+        "lastMessage": 1756308531868,
+        "messages": [
+          {
+            "remoteJid": "120363419764426260@g.us",
+            "fromMe": false,
+            "id": "3FD085FC3E07EAE66F3A",
+            "participant": "40510802640995@lid"
+          }
+        ]
+      }
     }
   }
 }

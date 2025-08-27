@@ -53,8 +53,6 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
       txt += `╰➺ ${emoji} *${position}.* @${user.id.split('@')[0]}\n`
     })
     
-    txt += `│\n`
-    txt += `╰────────────────╯\n`
     txt += `\n> PAIN COMMUNITY`
     
    

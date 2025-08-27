@@ -46,7 +46,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isOwner }) => {
   const subBots = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])]
   const subBotsCount = subBots.length
 
-  if (subBotsCount === 20) {
+  if (subBotsCount === 3) {
     return m.reply(`No se han encontrado espacios para *Sub-Bots* disponibles.`)
   }
 
@@ -304,7 +304,7 @@ export async function AYBot(options) {
                 try {
           const botNumber = path.basename(pathAYBot)
           const configPath = path.join(pathAYBot, 'config.json')
-          let nombreBot = global.namebot || 'KIYOMI MD'
+          let nombreBot = global.namebot || 'PAIN BOT'
           
           if (fs.existsSync(configPath)) {
             try {
