@@ -1,7 +1,7 @@
 {
   "users": {
     "51958333972@s.whatsapp.net": {
-      "exp": 831,
+      "exp": 868,
       "limit": 10,
       "registered": false,
       "name": "+51 958 333 972",
@@ -12,7 +12,7 @@
       "coins": 0
     },
     "114263544885392@lid": {
-      "exp": 70,
+      "exp": 0,
       "limit": 10,
       "registered": false,
       "name": "𝗦𝘂𝗻𝗸𝗼𝘃𝘃 </>",
@@ -42,7 +42,7 @@
       "name": "#7🇵🇹😮‍💨",
       "age": -1,
       "regTime": -1,
-      "banned": false,
+      "banned": true,
       "level": 0,
       "coins": 0
     },
@@ -719,7 +719,7 @@
       "coins": 0
     },
     "246561758015609@lid": {
-      "exp": 13,
+      "exp": 21,
       "limit": 10,
       "registered": false,
       "name": "🐦‍🔥Juanito 🦞",
@@ -829,8 +829,8 @@
       "coins": 0
     },
     "51901437507@s.whatsapp.net": {
-      "exp": 7,
-      "limit": 10,
+      "exp": null,
+      "limit": null,
       "registered": false,
       "name": "𝗦𝘂𝗻𝗸𝗼𝘃𝘃 </>",
       "age": -1,
@@ -902,7 +902,7 @@
       "coins": 0
     },
     "239273164963865@lid": {
-      "exp": 116,
+      "exp": 120,
       "limit": 10,
       "registered": false,
       "name": "Cheo 🦦",
@@ -944,7 +944,7 @@
       "coins": 0
     },
     "275878953148477@lid": {
-      "exp": 12,
+      "exp": 9,
       "limit": 10,
       "registered": false,
       "name": "𝙁𝙚𝙧𝙣𝙖𝙣𝙙𝙤",
@@ -1306,10 +1306,44 @@
       "coins": 0
     },
     "27664438030530@lid": {
-      "exp": 4,
+      "exp": 99,
       "limit": 10,
       "registered": false,
       "name": "Dev.Daniel 🇦🇱 ?",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
+    },
+    "51928303585@s.whatsapp.net": {
+      "exp": 6,
+      "limit": 10,
+      "registered": false,
+      "name": "ㅤ",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0,
+      "Subs": 1756485221542
+    },
+    "38148520288338@lid": {
+      "exp": 80,
+      "limit": 10,
+      "registered": false,
+      "name": "ㅤ",
+      "age": -1,
+      "regTime": -1,
+      "banned": false,
+      "level": 0,
+      "coins": 0
+    },
+    "264183992086547@lid": {
+      "exp": 19,
+      "limit": 10,
+      "registered": false,
+      "name": "スリ 𖹭",
       "age": -1,
       "regTime": -1,
       "banned": false,
@@ -1701,14 +1735,30 @@
       "onlyLatinos": false,
       "nsfw": false,
       "expired": 0
+    },
+    "51928303585@s.whatsapp.net": {
+      "isBanned": false,
+      "bienvenida": true,
+      "antiLink": false,
+      "onlyLatinos": false,
+      "nsfw": false,
+      "expired": 0
+    },
+    "120363419654184025@g.us": {
+      "isBanned": false,
+      "bienvenida": true,
+      "antiLink": false,
+      "onlyLatinos": false,
+      "nsfw": false,
+      "expired": 0
     }
   },
   "stats": {
     "main-menu.js": {
-      "total": 17,
-      "success": 17,
-      "last": 1756481785683,
-      "lastSuccess": 1756481785683
+      "total": 23,
+      "success": 23,
+      "last": 1756486308600,
+      "lastSuccess": 1756486308600
     },
     "sub-bots.js": {
       "total": 2,
@@ -1753,22 +1803,22 @@
       "lastSuccess": 1756202371257
     },
     "top-gays.js": {
-      "total": 13,
-      "success": 13,
-      "last": 1756311699104,
-      "lastSuccess": 1756311699104
+      "total": 14,
+      "success": 14,
+      "last": 1756486186187,
+      "lastSuccess": 1756486186187
     },
     "sticker-toimg.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1756202683332,
-      "lastSuccess": 1756202683332
+      "total": 3,
+      "success": 3,
+      "last": 1756486474515,
+      "lastSuccess": 1756486474515
     },
     "stickers-sticker.js": {
-      "total": 5,
-      "success": 5,
-      "last": 1756339886777,
-      "lastSuccess": 1756339886777
+      "total": 6,
+      "success": 6,
+      "last": 1756486388357,
+      "lastSuccess": 1756486388357
     },
     "xvideos.js": {
       "total": 10,
@@ -1831,10 +1881,10 @@
       "lastSuccess": 1756339388133
     },
     "serbot-serbot.js": {
-      "total": 23,
-      "success": 23,
-      "last": 1756428846754,
-      "lastSuccess": 1756428846754
+      "total": 24,
+      "success": 24,
+      "last": 1756485221552,
+      "lastSuccess": 1756485221552
     },
     "anti-link.js": {
       "total": 3,
@@ -1885,10 +1935,10 @@
       "lastSuccess": 1756243322039
     },
     "group-add.js": {
-      "total": 1,
-      "success": 1,
-      "last": 1756243882277,
-      "lastSuccess": 1756243882277
+      "total": 2,
+      "success": 2,
+      "last": 1756486122872,
+      "lastSuccess": 1756486122872
     },
     "top-pajeros.js": {
       "total": 1,
@@ -1903,10 +1953,10 @@
       "lastSuccess": 1756482740526
     },
     "group-kick.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1756245108811,
-      "lastSuccess": 1756245108811
+      "total": 3,
+      "success": 3,
+      "last": 1756486080346,
+      "lastSuccess": 1756486080346
     },
     "google-search.js": {
       "total": 2,
@@ -1957,6 +2007,10 @@
       "autoread": true
     },
     "5216278893061@s.whatsapp.net": {
+      "self": false,
+      "autoread": true
+    },
+    "51928303585@s.whatsapp.net": {
       "self": false,
       "autoread": true
     }
@@ -2014,12 +2068,12 @@
       },
       "246561758015609@lid": {
         "count": 1,
-        "lastMessage": 1756312425689,
+        "lastMessage": 1756486212387,
         "messages": [
           {
             "remoteJid": "120363419764426260@g.us",
             "fromMe": false,
-            "id": "90270D98FF29B86C7CFE261A3DA4AABA",
+            "id": "C1BC95114A634C954BC7EE95C9A62D11",
             "participant": "246561758015609@lid"
           }
         ]
@@ -2085,14 +2139,31 @@
         ]
       },
       "27664438030530@lid": {
+        "count": 0,
+        "lastMessage": 1756485568105,
+        "messages": []
+      },
+      "38148520288338@lid": {
         "count": 1,
-        "lastMessage": 1756483538741,
+        "lastMessage": 1756485902281,
         "messages": [
           {
             "remoteJid": "120363419764426260@g.us",
             "fromMe": false,
-            "id": "B6545BA7BED1DF9E78478F83660C70B8",
-            "participant": "27664438030530@lid"
+            "id": "A37335C6E3C4D72C61B29FBE113FAE9B",
+            "participant": "38148520288338@lid"
+          }
+        ]
+      },
+      "275878953148477@lid": {
+        "count": 1,
+        "lastMessage": 1756486436541,
+        "messages": [
+          {
+            "remoteJid": "120363419764426260@g.us",
+            "fromMe": false,
+            "id": "9296510F6C65D0F591B76F2D93E75014",
+            "participant": "275878953148477@lid"
           }
         ]
       }
