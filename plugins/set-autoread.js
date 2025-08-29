@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
   const botActual = conn.user?.jid?.split('@')[0].replace(/\D/g, '')
   const configPath = join('./Serbot', botActual, 'config.json')
 
-  let nombreBot = global.namebot || 'KIYOMI MD'
+  let nombreBot = global.namebot || 'PAIN BOT'
 
   if (fs.existsSync(configPath)) {
     try {
@@ -45,8 +45,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
 ╰➺ ✧ *¿Qué hace el auto-leer?*
 ╰➺ ✧ Marca automáticamente los mensajes como leídos
 ╰➺ ✧ Aparece el doble check azul en WhatsApp
-│
-╰────────────────╯
+
 > PAIN COMMUNITY`, m, rcanal)
   }
 
@@ -59,8 +58,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
 ╰➺ ✧ *Auto-leer:* Activado ✅
 ╰➺ ✧ *Ahora tu sub-bot marcará automáticamente los mensajes como leídos*
 ╰➺ ✧ *Aparecerá el doble check azul en todos los chats*
-│
-╰────────────────╯
+
 > PAIN COMMUNITY`, m, rcanal)
   } else if (action === 'off' || action === 'desactivar' || action === 'disable') {
     config.autoRead = false
@@ -69,8 +67,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
 ╰➺ ✧ *Auto-leer:* Desactivado ❌
 ╰➺ ✧ *Tu sub-bot ya no marcará automáticamente los mensajes como leídos*
 ╰➺ ✧ *Los mensajes mantendrán el check gris*
-│
-╰────────────────╯
+
 > PAIN COMMUNITY`, m, rcanal)
   } else {
     return conn.reply(m.chat, `╭─「 ✦ 𓆩❓𓆪 ᴜsᴏ ᴄᴏʀʀᴇᴄᴛᴏ ✦ 」─╮
@@ -79,8 +76,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
 ╰➺ ✧ *.setautoread on* - Activar
 ╰➺ ✧ *.setautoread off* - Desactivar
 ╰➺ ✧ *.setautoread* - Ver estado actual
-│
-╰────────────────╯
+
 > PAIN COMMUNITY`, m, rcanal)
   }
 

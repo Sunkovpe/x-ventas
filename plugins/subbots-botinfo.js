@@ -99,8 +99,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     txt += `╭─「 ✦ 𓆩👑𓆪 ᴄʀᴇᴀᴅᴏʀᴇs ✦ 」─╮\n`
     txt += `│\n`
     txt += `${ownersText.split('\n').map(owner => `╰➺ ✧ *${owner}*`).join('\n')}\n`
-    txt += `│\n`
-    txt += `╰────────────────╯\n\n`
+
   }
 
   txt += `> PAIN COMMUNITY`
