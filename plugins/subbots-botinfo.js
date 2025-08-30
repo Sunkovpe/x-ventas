@@ -49,7 +49,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     } catch {}
   }
 
-  const tipo = botActual === '+51958333972'.replace(/\D/g, '')
+  const tipo = botActual === '+51942831182'.replace(/\D/g, '')
     ? 'Principal Bot'
     : 'Sub Bot'
 
@@ -102,7 +102,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
   }
 
-  txt += `> PAIN COMMUNITY`
+  txt += `> X ADM`
 
   await conn.sendFile(m.chat, imgBot, 'thumbnail.jpg', txt, m, null, { 
     contextInfo: {
