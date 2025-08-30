@@ -14,7 +14,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     let imgBot = 'https://files.catbox.moe/wooqer.jpg'
     let mainImg = './storage/img/menu3.jpg'
     const botActual = conn.user?.jid?.split('@')[0]?.replace(/\D/g, '')
-    const tipo = botActual === '+51958333972'.replace(/\D/g, '') ? 'Principal Bot' : 'Sub Bot'
+    const tipo = botActual === '+51942831182'.replace(/\D/g, '') ? 'Principal Bot' : 'Sub Bot'
     
     
     if (tipo === 'Sub Bot') {
