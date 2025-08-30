@@ -148,7 +148,7 @@ let handler = async (m, { conn }) => {
       
       
       const subBotConfigPath = join('./Serbot', subBotNumber, 'config.json')
-      let subBotName = global.namebot || 'KIYOMI MD'
+      let subBotName = global.namebot || 'X ADM'
       
       if (fs.existsSync(subBotConfigPath)) {
         try {
