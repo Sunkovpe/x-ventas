@@ -1,5 +1,5 @@
 {
-  "name": "Pain-Bot",
+  "name": "x-ventas",
   "version": "1.0.0",
   "description": "Multi Device",
   "main": "index.js",
@@ -12,16 +12,16 @@
   "scripts": {
     "start": "node index.js"
   },
-  "homepage": "https://github.com/Sunkovpe/Pain-Bot",
+  "homepage": "https://github.com/Sunkovpe/x-ventas",
   "author": {
-    "name": "Sunkivv"
+    "name": "x-ventas"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sunkovpe/Pain-Bot.git"
+    "url": "git+https://github.com/Sunkovpe/x-ventas.git"
   },
   "bugs": {
-    "url": "https://github.com/Sunkovpe/Pain-Bot/issues"
+    "url": "https://github.com/Sunkovpe/x-ventas/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
