@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
     
     if (!userWarnings || userWarnings.count === 0) {
       return conn.sendMessage(m.chat, {
-        text: `╭─「 📋 𝗔𝗱𝘃𝗲𝗿𝘁𝗲𝗻𝗰𝗶𝗮𝘀 𝗱𝗲 𝗨𝘀𝘂𝗮𝗿𝗶𝗼 📋 」─╮\n│\n╰➺ ✧ *Usuario:* @${who.split('@')[0]}\n╰➺ ✧ *Advertencias:* 0/3 ✅\n╰➺ ✧ *Estado:* Expediente limpio\n│\n╰➺ ✧ *Grupo:* ${groupName}\n\n> PAIN COMMUNITY`,
+        text: `╭─「 📋 𝗔𝗱𝘃𝗲𝗿𝘁𝗲𝗻𝗰𝗶𝗮𝘀 𝗱𝗲 𝗨𝘀𝘂𝗮𝗿𝗶𝗼 📋 」─╮\n│\n╰➺ ✧ *Usuario:* @${who.split('@')[0]}\n╰➺ ✧ *Advertencias:* 0/3 ✅\n╰➺ ✧ *Estado:* Expediente limpio\n│\n╰➺ ✧ *Grupo:* ${groupName}\n\n> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo,
           mentionedJid: [who]
@@ -48,7 +48,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
     if (userWarnings.count >= 2) {
       warningsText += `╰➺ ⚠️ *¡Próxima advertencia = Expulsión!* ⚠️\n`
     }
-    warningsText += `\n> PAIN COMMUNITY`
+    warningsText += `\n> X ADM`
 
     const mentionedUsers = [who, ...userWarnings.warnings.map(w => w.admin)]
     
@@ -67,7 +67,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
 
   if (usersWithWarnings.length === 0) {
     return conn.sendMessage(m.chat, {
-      text: `╭─「 📋 𝗔𝗱𝘃𝗲𝗿𝘁𝗲𝗻𝗰𝗶𝗮𝘀 𝗱𝗲𝗹 𝗚𝗿𝘂𝗽𝗼 📋 」─╮\n│\n╰➺ ✧ *Grupo:* ${groupName}\n╰➺ ✧ *Usuarios con advertencias:* 0\n╰➺ ✧ *Estado:* Grupo limpio ✅\n│\n╰➺ ✧ *Nota:* No hay usuarios con advertencias activas.\n\n> PAIN COMMUNITY`,
+      text: `╭─「 📋 𝗔𝗱𝘃𝗲𝗿𝘁𝗲𝗻𝗰𝗶𝗮𝘀 𝗱𝗲𝗹 𝗚𝗿𝘂𝗽𝗼 📋 」─╮\n│\n╰➺ ✧ *Grupo:* ${groupName}\n╰➺ ✧ *Usuarios con advertencias:* 0\n╰➺ ✧ *Estado:* Grupo limpio ✅\n│\n╰➺ ✧ *Nota:* No hay usuarios con advertencias activas.\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -96,7 +96,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
   }
   
   groupWarningsText += `│\n╰➺ ✧ *Comando:* ${usedPrefix}warnings @usuario\n`
-  groupWarningsText += `╰➺ ✧ *Para ver detalles de un usuario específico*\n\n> PAIN COMMUNITY`
+  groupWarningsText += `╰➺ ✧ *Para ver detalles de un usuario específico*\n\n> X ADM`
 
   return conn.sendMessage(m.chat, {
     text: groupWarningsText,

@@ -26,7 +26,7 @@ let handler = async (m, { conn, usedPrefix, command, isAdmin }) => {
     await conn.updateProfilePicture(m.chat, imgBuffer)
 
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𝗙𝗼𝘁𝗼 𝗱𝗲𝗹 𝗚𝗿𝘂𝗽𝗼 𝗔𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗱𝗮 ✦ 」─╮\n│\n╰➺ ✧ *Hecho por:* @${m.sender.split('@')[0]}\n╰➺ ✧ *Estado:* Cambiada correctamente ✅\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𝗙𝗼𝘁𝗼 𝗱𝗲𝗹 𝗚𝗿𝘂𝗽𝗼 𝗔𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗱𝗮 ✦ 」─╮\n│\n╰➺ ✧ *Hecho por:* @${m.sender.split('@')[0]}\n╰➺ ✧ *Estado:* Cambiada correctamente ✅\n\n> X ADM`,
       contextInfo: { ...rcanal.contextInfo, mentionedJid: [m.sender] }
     }, { quoted: m })
   } catch (e) {

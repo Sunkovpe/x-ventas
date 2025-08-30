@@ -32,7 +32,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
         txt += `╰➺ ✧ *Comando:* .modoia off\n`
         txt += `│\n`
         txt += `╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n`
-        txt += `\n> PAIN COMMUNITY`
+        txt += `\n> X ADM`
         
         return conn.sendMessage(m.chat, {
           text: txt,
@@ -51,7 +51,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
         txt += `╰➺ ✧ *Comando:* .modoilegal off\n`
         txt += `│\n`
         txt += `╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n`
-        txt += `\n> PAIN COMMUNITY`
+        txt += `\n> X ADM`
         
         return conn.sendMessage(m.chat, {
           text: txt,
@@ -71,7 +71,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `╰➺ ✧ *Modo:* Coqueta y Atrevida 😏\n`
       txt += `│\n`
       txt += `╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,
@@ -98,7 +98,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `╰➺ ✧ *Memoria:* Limpiada\n`
       txt += `│\n`
       txt += `╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,
@@ -122,7 +122,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
         txt += `╰➺ ✧ *Mensajes:* 0/20 recordados\n`
         txt += `│\n`
         txt += `╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n`
-        txt += `\n> PAIN COMMUNITY`
+        txt += `\n> X ADM`
         
         return conn.sendMessage(m.chat, {
           text: txt,
@@ -158,7 +158,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `│\n`
       txt += `╰➺ ✧ *Nota:* No compatible con otros modos\n`
       txt += `╰➺ ✧ Desactiva otros modos antes de usar\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,

@@ -24,7 +24,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
     
     if (userNotes.length === 0) {
       return conn.sendMessage(m.chat, {
-        text: `╭─「 📝 𝗡𝗼𝘁𝗮𝘀 𝗱𝗲 𝗨𝘀𝘂𝗮𝗿𝗶𝗼 📝 」─╮\n│\n╰➺ ✧ *Usuario:* @${who.split('@')[0]}\n╰➺ ✧ *Notas:* 0 📝\n╰➺ ✧ *Estado:* Sin notas activas\n│\n╰➺ ✧ *Grupo:* ${groupName}\n\n> PAIN COMMUNITY`,
+        text: `╭─「 📝 𝗡𝗼𝘁𝗮𝘀 𝗱𝗲 𝗨𝘀𝘂𝗮𝗿𝗶𝗼 📝 」─╮\n│\n╰➺ ✧ *Usuario:* @${who.split('@')[0]}\n╰➺ ✧ *Notas:* 0 📝\n╰➺ ✧ *Estado:* Sin notas activas\n│\n╰➺ ✧ *Grupo:* ${groupName}\n\n> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo,
           mentionedJid: [who]
@@ -45,7 +45,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
       notesText += `   ↳ Tiempo restante: ${hoursLeft}h ${minutesLeft}m\n`
     })
     
-    notesText += `│\n╰➺ ✧ *Grupo:* ${groupName}\n\n> PAIN COMMUNITY`
+    notesText += `│\n╰➺ ✧ *Grupo:* ${groupName}\n\n> X ADM`
 
     const mentionedUsers = [who, ...userNotes.map(n => n.author)]
     
@@ -63,7 +63,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
 
   if (allNotes.length === 0) {
     return conn.sendMessage(m.chat, {
-      text: `╭─「 📝 𝗡𝗼𝘁𝗮𝘀 𝗱𝗲𝗹 𝗚𝗿𝘂𝗽𝗼 📝 」─╮\n│\n╰➺ ✧ *Grupo:* ${groupName}\n╰➺ ✧ *Notas activas:* 0\n╰➺ ✧ *Estado:* Sin notas 📝\n│\n╰➺ ✧ *Nota:* No hay notas activas en este grupo.\n\n> PAIN COMMUNITY`,
+      text: `╭─「 📝 𝗡𝗼𝘁𝗮𝘀 𝗱𝗲𝗹 𝗚𝗿𝘂𝗽𝗼 📝 」─╮\n│\n╰➺ ✧ *Grupo:* ${groupName}\n╰➺ ✧ *Notas activas:* 0\n╰➺ ✧ *Estado:* Sin notas 📝\n│\n╰➺ ✧ *Nota:* No hay notas activas en este grupo.\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -93,7 +93,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
   }
   
   groupNotesText += `│\n╰➺ ✧ *Comando:* ${usedPrefix}vernotas @usuario\n`
-  groupNotesText += `╰➺ ✧ *Para ver notas de un usuario específico*\n\n> PAIN COMMUNITY`
+  groupNotesText += `╰➺ ✧ *Para ver notas de un usuario específico*\n\n> X ADM`
 
   return conn.sendMessage(m.chat, {
     text: groupNotesText,

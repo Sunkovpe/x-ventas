@@ -49,7 +49,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 ╰➺ ✧ *Descripción:* ${repoData.description || 'Sin descripción disponible'}
 ╰➺ ✧ *URL:* ${args[0]}
 
-> PAIN COMMUNITY`
+> X ADM`
 
    
     const imgResponse = await fetch('https://files.catbox.moe/t8ampx.jpg')

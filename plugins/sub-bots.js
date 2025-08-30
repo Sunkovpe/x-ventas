@@ -94,7 +94,7 @@ let handler = async (m, { conn }) => {
 
   const botActual = conn.user?.jid?.split('@')[0].replace(/\D/g, '')
   const configPath = join('./Serbot', botActual, 'config.json')
-  let nombreBot = global.namebot || 'PAIN BOT'
+  let nombreBot = global.namebot || 'X ADM'
   
   if (fs.existsSync(configPath)) {
     try {
@@ -194,7 +194,7 @@ let handler = async (m, { conn }) => {
   txt += `╭─「 ✦ 𓆩📈𓆪 ʀᴇsᴜᴍᴇɴ ✦ 」─╮\n`
   txt += `│\n`
   txt += `╰➺ ✧ *Bots Totales:* ${totalBots}\n`
-  txt += `\n> PAIN COMMUNITY`
+  txt += `\n> X ADM`
 
   let imgBot = './storage/img/menu.jpg'
   

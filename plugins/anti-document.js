@@ -32,7 +32,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `╰➺ ✧ *Excepción:* Administradores\n`
       txt += `│\n`
       txt += `╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,
@@ -49,7 +49,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `│\n`
       txt += `╰➺ ✧ *Estado:* Desactivado\n`
       txt += `╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,

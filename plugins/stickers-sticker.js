@@ -21,9 +21,9 @@ let handler = async (m, { conn, args }) => {
     }
 
     const username = '@' + (conn.getName(m.sender) || 'Usuario')
-    let nombreBot = global.namebot || 'PAIN'
+    let nombreBot = global.namebot || 'X ADM'
     
-    const packname = `👑 𝗢𝘄𝗻𝗲𝗿𝘀: \n✰ Sunkovv`
+    const packname = `👑 𝗢𝘄𝗻𝗲𝗿𝘀: \n✰ X VENTAS`
     const author = `\n\n🪐 𝗕𝗼𝘁:\n↳${nombreBot}\n\n🍁 𝑼𝒔𝒖𝒂𝒓𝒊𝒐:\n↳${username}`
 
     const stickerData = await toWebp(buffer)

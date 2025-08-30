@@ -94,7 +94,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
       delete global.db.data.warnings[m.chat][who]
       
       return conn.sendMessage(m.chat, {
-        text: `╭─「 ⚠️ 𝗨𝘀𝘂𝗮𝗿𝗶𝗼 𝗘𝘅𝗽𝘂𝗹𝘀𝗮𝗱𝗼 ⚠️ 」─╮\n│\n╰➺ ✧ *Usuario:* @${who.split('@')[0]}\n╰➺ ✧ *Admin:* @${m.sender.split('@')[0]}\n╰➺ ✧ *Motivo:* ${reason}\n╰➺ ✧ *Advertencias:* 3/3 ❌\n│\n╰➺ ✧ *Grupo:* ${groupName}\n╰➺ ✧ *Acción:* Expulsado del grupo\n\n> PAIN COMMUNITY`,
+        text: `╭─「 ⚠️ 𝗨𝘀𝘂𝗮𝗿𝗶𝗼 𝗘𝘅𝗽𝘂𝗹𝘀𝗮𝗱𝗼 ⚠️ 」─╮\n│\n╰➺ ✧ *Usuario:* @${who.split('@')[0]}\n╰➺ ✧ *Admin:* @${m.sender.split('@')[0]}\n╰➺ ✧ *Motivo:* ${reason}\n╰➺ ✧ *Advertencias:* 3/3 ❌\n│\n╰➺ ✧ *Grupo:* ${groupName}\n╰➺ ✧ *Acción:* Expulsado del grupo\n\n> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo,
           mentionedJid: [who, m.sender]
@@ -115,7 +115,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
     const remainingWarnings = 3 - userWarnings.count
     
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ⚠️ 𝗔𝗱𝘃𝗲𝗿𝘁𝗲𝗻𝗰𝗶𝗮 𝗘𝗺𝗶𝘁𝗶𝗱𝗮 ⚠️ 」─╮\n│\n╰➺ ✧ *Usuario:* @${who.split('@')[0]}\n╰➺ ✧ *Admin:* @${m.sender.split('@')[0]}\n╰➺ ✧ *Motivo:* ${reason}\n╰➺ ✧ *Advertencias:* ${userWarnings.count}/3 ⚠️\n│\n╰➺ ✧ *Restantes:* ${remainingWarnings} advertencia(s)\n╰➺ ✧ *Grupo:* ${groupName}\n│\n${userWarnings.count === 2 ? '⚠️ *¡ÚLTIMA ADVERTENCIA!* ⚠️\n' : ''}╰➺ ✧ *Nota:* Al llegar a 3 advertencias serás expulsado automáticamente.\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ⚠️ 𝗔𝗱𝘃𝗲𝗿𝘁𝗲𝗻𝗰𝗶𝗮 𝗘𝗺𝗶𝘁𝗶𝗱𝗮 ⚠️ 」─╮\n│\n╰➺ ✧ *Usuario:* @${who.split('@')[0]}\n╰➺ ✧ *Admin:* @${m.sender.split('@')[0]}\n╰➺ ✧ *Motivo:* ${reason}\n╰➺ ✧ *Advertencias:* ${userWarnings.count}/3 ⚠️\n│\n╰➺ ✧ *Restantes:* ${remainingWarnings} advertencia(s)\n╰➺ ✧ *Grupo:* ${groupName}\n│\n${userWarnings.count === 2 ? '⚠️ *¡ÚLTIMA ADVERTENCIA!* ⚠️\n' : ''}╰➺ ✧ *Nota:* Al llegar a 3 advertencias serás expulsado automáticamente.\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo,
         mentionedJid: [who, m.sender]

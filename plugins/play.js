@@ -64,7 +64,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
       youtubeUrl = video.url
       const views = video.views ? video.views.toLocaleString() : "-"
       await conn.sendMessage(m.chat, {
-        text: `╭─「 ✦ 𓆩🎵𓆪 ʏᴏᴜᴛᴜʙᴇ ᴍᴘ3 ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${video.title}\n╰➺ ✧ *Duración:* ${video.timestamp}\n╰➺ ✧ *Publicado:* ${video.ago}\n╰➺ ✧ *Canal:* ${video.author.name}\n╰➺ ✧ *Vistas:* ${views}\n╰➺ ✧ *ID:* ${video.videoId}\n╰➺ ✧ *Url:* ${video.url}\n│\n╰➺ ✧ *Generando tu audio, por favor espera un momento...*\n\n> PAIN COMMUNITY`,
+        text: `╭─「 ✦ 𓆩🎵𓆪 ʏᴏᴜᴛᴜʙᴇ ᴍᴘ3 ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${video.title}\n╰➺ ✧ *Duración:* ${video.timestamp}\n╰➺ ✧ *Publicado:* ${video.ago}\n╰➺ ✧ *Canal:* ${video.author.name}\n╰➺ ✧ *Vistas:* ${views}\n╰➺ ✧ *ID:* ${video.videoId}\n╰➺ ✧ *Url:* ${video.url}\n│\n╰➺ ✧ *Generando tu audio, por favor espera un momento...*\n\n> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo
         }

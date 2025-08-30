@@ -5,7 +5,7 @@ const BaseYuxinzesite = "http://speedhosting.cloud:2009"
 const handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) {
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩🎵𓆪 ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ✦ 」─╮\n│\n╰➺ ✧ *Uso:* ${usedPrefix}play2 <canción>\n╰➺ ✧ *Ejemplo:* ${usedPrefix}play2 mi camino funk\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩🎵𓆪 ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ✦ 」─╮\n│\n╰➺ ✧ *Uso:* ${usedPrefix}play2 <canción>\n╰➺ ✧ *Ejemplo:* ${usedPrefix}play2 mi camino funk\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -14,7 +14,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 
   
   await conn.sendMessage(m.chat, {
-    text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Canción:* ${text}\n╰➺ ✧ *Estado:* Buscando...\n\n> PAIN COMMUNITY`,
+    text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Canción:* ${text}\n╰➺ ✧ *Estado:* Buscando...\n\n> X ADM`,
     contextInfo: {
       ...rcanal.contextInfo
     }
@@ -26,7 +26,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     
     if (!apiyt.resultado || apiyt.resultado.length === 0) {
       return conn.sendMessage(m.chat, {
-        text: `╭─「 ✦ 𓆩❌𓆪 ɴᴏ ʀᴇsᴜʟᴛᴀᴅᴏs ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Estado:* No se encontró la canción\n\n> PAIN COMMUNITY`,
+        text: `╭─「 ✦ 𓆩❌𓆪 ɴᴏ ʀᴇsᴜʟᴛᴀᴅᴏs ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Estado:* No se encontró la canción\n\n> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo
         }
@@ -56,7 +56,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   } catch (e) {
     console.error('Error en play2:', e)
     await conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Sugerencia:* Inténtalo más tarde\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Sugerencia:* Inténtalo más tarde\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }

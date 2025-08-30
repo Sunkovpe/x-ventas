@@ -118,8 +118,8 @@ const isBotAdmin = bot?.admin || false
 
 const ___dirname = path.join(path.dirname(fileURLToPath(import.meta.url)), './plugins')  
 
-global.idcanal = '120363403162100537@newsletter'  
-global.namecanal = '𓆩 𝗣𝗔𝗜𝗡 𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬 𓆪'  
+global.idcanal = '120363401364931622@newsletter'  
+global.namecanal = 'X ADM BOT'  
 global.rcanal = {  
   contextInfo: {  
     isForwarded: true,  
@@ -721,7 +721,7 @@ if (m.isGroup && global.db.data.soloAdmin && global.db.data.soloAdmin[m.chat] ==
   if (isCommand && !isAdmin && !isOwner) {
     try {
       await this.sendMessage(m.chat, {
-        text: `╭─「 ✦ 🔐 ᴍᴏᴅᴏ sᴏʟᴏ-ᴀᴅᴍɪɴs ✦ 」─╮\n│\n╰➺ ✧ @${m.sender.split('@')[0]} el bot está en\n╰➺ ✧ modo *Solo Administradores*\n│\n╰➺ ✧ Solo admins del grupo y\n╰➺ ✧ owners del bot pueden usar comandos\n│\n╰➺ ✧ *Estado:* 🔐 Restringido\n\n> PAIN COMMUNITY`,
+        text: `╭─「 ✦ 🔐 ᴍᴏᴅᴏ sᴏʟᴏ-ᴀᴅᴍɪɴs ✦ 」─╮\n│\n╰➺ ✧ @${m.sender.split('@')[0]} el bot está en\n╰➺ ✧ modo *Solo Administradores*\n│\n╰➺ ✧ Solo admins del grupo y\n╰➺ ✧ owners del bot pueden usar comandos\n│\n╰➺ ✧ *Estado:* 🔐 Restringido\n\n> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo,
           mentionedJid: [m.sender]
@@ -835,7 +835,7 @@ if (m.text && !commandExecuted && !m.commandExecuted) {
         }
       })
       
-      let message = `《✧》El comando *${fullCommand}* no existe en PAIN BOT.\n\n`
+      let message = `《✧》El comando *${fullCommand}* no existe en X ADM BOT.\n\n`
       
       if (bestSuggestion && bestScore >= 10) {
         

@@ -98,7 +98,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     txt += `╰➺ ✧ ${mensaje}\n`
     txt += `╰➺ ✧ *Próximo premio:* ${nextPremio} coins\n`
     txt += `╰➺ ✧ *Próximo claim:* ${nextDate}\n`
-    txt += `\n> PAIN COMMUNITY`
+    txt += `\n> X ADM`
     
     return conn.sendMessage(m.chat, {
       text: txt,

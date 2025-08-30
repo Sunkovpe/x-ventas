@@ -15,7 +15,7 @@ async function translateToSpanish(text) {
 let handler = async (m, { conn, text, args, usedPrefix, command }) => {
   if (!text) {
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩🔍𓆪 BÚSQUEDA EN DUCKDUCKGO ✦ 」─╮\n│\n╰➺ ✧ *Uso:* ${usedPrefix}google <búsqueda>\n╰➺ ✧ *Ejemplo:* ${usedPrefix}google Anya Forger\n╰➺ ✧ *Ejemplo:* ${usedPrefix}google anime\n│\n╰────────────────╯\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩🔍𓆪 BÚSQUEDA EN DUCKDUCKGO ✦ 」─╮\n│\n╰➺ ✧ *Uso:* ${usedPrefix}google <búsqueda>\n╰➺ ✧ *Ejemplo:* ${usedPrefix}google Anya Forger\n╰➺ ✧ *Ejemplo:* ${usedPrefix}google anime\n│\n╰────────────────╯\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -32,7 +32,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
     
     if (!data.AbstractText && (!data.RelatedTopics || data.RelatedTopics.length === 0)) {
       await conn.sendMessage(m.chat, {
-        text: '╭─「 ✦ 𓆩❌𓆪 NO SE ENCONTRARON RESULTADOS ✦ 」─╮\n│\n╰➺ ✧ *No se encontraron resultados*\n╰➺ ✧ *Intenta con otros términos*\n│\n╰────────────────╯\n\n> PAIN COMMUNITY',
+        text: '╭─「 ✦ 𓆩❌𓆪 NO SE ENCONTRARON RESULTADOS ✦ 」─╮\n│\n╰➺ ✧ *No se encontraron resultados*\n╰➺ ✧ *Intenta con otros términos*\n│\n╰────────────────╯\n\n> X ADM',
         contextInfo: {
           ...rcanal.contextInfo
         }
@@ -96,7 +96,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
       try {
         await conn.sendMessage(m.chat, {
           image: { url: imageUrl },
-          caption: infoText + '> PAIN COMMUNITY',
+          caption: infoText + '> X ADM',
           contextInfo: {
             ...rcanal.contextInfo
           }
@@ -105,7 +105,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
         console.error('Error enviando imagen:', imgError)
       
         await conn.sendMessage(m.chat, {
-          text: infoText + '> PAIN COMMUNITY',
+          text: infoText + '> X ADM',
           contextInfo: {
             ...rcanal.contextInfo
           }
@@ -114,7 +114,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
     } else {
     
       await conn.sendMessage(m.chat, {
-        text: infoText + '> PAIN COMMUNITY',
+        text: infoText + '> X ADM',
         contextInfo: {
           ...rcanal.contextInfo
         }
@@ -125,7 +125,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
     console.error('Error en búsqueda de DuckDuckGo:', error)
     
     await conn.sendMessage(m.chat, {
-      text: '╭─「 ✦ 𓆩❌𓆪 ERROR ✦ 」─╮\n│\n╰➺ ✧ *Error en la búsqueda*\n╰➺ ✧ *Por favor, inténtalo más tarde*\n│\n╰────────────────╯\n\n> PAIN COMMUNITY',
+      text: '╭─「 ✦ 𓆩❌𓆪 ERROR ✦ 」─╮\n│\n╰➺ ✧ *Error en la búsqueda*\n╰➺ ✧ *Por favor, inténtalo más tarde*\n│\n╰────────────────╯\n\n> X ADM',
       contextInfo: {
         ...rcanal.contextInfo
       }

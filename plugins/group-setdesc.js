@@ -25,7 +25,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
     await conn.groupUpdateDescription(m.chat, newDesc)
 
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼́𝗻 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗱𝗮 ✦ 」─╮\n│\n╰➺ ✧ *Antes:* ${oldDesc.substring(0, 300)}${oldDesc.length > 300 ? '…' : ''}\n╰➺ ✧ *Ahora:* ${newDesc}\n│\n╰➺ ✧ *Por:* @${m.sender.split('@')[0]}\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼́𝗻 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗱𝗮 ✦ 」─╮\n│\n╰➺ ✧ *Antes:* ${oldDesc.substring(0, 300)}${oldDesc.length > 300 ? '…' : ''}\n╰➺ ✧ *Ahora:* ${newDesc}\n│\n╰➺ ✧ *Por:* @${m.sender.split('@')[0]}\n\n> X ADM`,
       contextInfo: { ...rcanal.contextInfo, mentionedJid: [m.sender] }
     }, { quoted: m })
   } catch (e) {

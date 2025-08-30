@@ -60,7 +60,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
       txt += `╰➺ ${emoji} *${position}.* @${pair.user1.id.split('@')[0]} 💕 @${pair.user2.id.split('@')[0]}\n`
     })
     
-    txt += `\n> PAIN COMMUNITY`
+    txt += `\n> X ADM`
     
     
     const mentionedJid = pairs.flatMap(pair => [pair.user1.id, pair.user2.id])

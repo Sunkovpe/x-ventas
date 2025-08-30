@@ -36,7 +36,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   const botActual = conn.user?.jid?.split('@')[0]?.replace(/\D/g, '')
   const configPath = join('./Serbot', botActual, 'config.json')
 
-  let nombreBot = global.namebot || 'PAIN BOT'
+  let nombreBot = global.namebot || 'X ADM'
   let moneyName = 'Gats'
   let imgBot = './storage/img/menu2.jpg'
 

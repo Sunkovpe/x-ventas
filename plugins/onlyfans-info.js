@@ -14,7 +14,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 ╰➺ ✧ Muestra datos como avatar, descripción, estadísticas
 │
 ╰────────────────╯
-> PAIN COMMUNITY`,
+> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -36,7 +36,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 ╰➺ ✧ *Verifica el username*
 ╰➺ ✧ *O el perfil puede ser privado*
 
-> PAIN COMMUNITY`,
+> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo
         }
@@ -73,7 +73,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 ╰➺ ✧ *Enlaces:*
 ╰➺ ✧ • [Website] (${userData.website})
 
-> PAIN COMMUNITY`
+> X ADM`
 
    
     if (userData.avatar) {
@@ -141,7 +141,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
 │
 ╰➺ ✧ *Intenta nuevamente más tarde*
 
-> PAIN COMMUNITY`,
+> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }

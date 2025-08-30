@@ -5,7 +5,7 @@ import { JSDOM } from "jsdom"
 const handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) {
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩🔞𓆪 ʜᴇɴᴛᴀɪ ʙᴜsᴄᴀᴅᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Uso:* ${usedPrefix}hentai <búsqueda>\n╰➺ ✧ *Ejemplo:* ${usedPrefix}hentai Boku ni Harem\n╰➺ ✧ *URL:* ${usedPrefix}hentai <url>\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩🔞𓆪 ʜᴇɴᴛᴀɪ ʙᴜsᴄᴀᴅᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Uso:* ${usedPrefix}hentai <búsqueda>\n╰➺ ✧ *Ejemplo:* ${usedPrefix}hentai Boku ni Harem\n╰➺ ✧ *URL:* ${usedPrefix}hentai <url>\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -17,7 +17,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   
   if (isUrl) {
     await conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *URL:* ${text}\n╰➺ ✧ *Estado:* Descargando...\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *URL:* ${text}\n╰➺ ✧ *Estado:* Descargando...\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -27,7 +27,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
       const videoInfo = await getInfo(text)
       if (!videoInfo) {
         return conn.sendMessage(m.chat, {
-          text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* No se encontró información del video\n╰➺ ✧ *Verifica la URL*\n\n> PAIN COMMUNITY`,
+          text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* No se encontró información del video\n╰➺ ✧ *Verifica la URL*\n\n> X ADM`,
           contextInfo: {
             ...rcanal.contextInfo
           }
@@ -37,7 +37,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
       const videoUrl = videoInfo.videoUrl
       let peso = await size(videoInfo.videoUrl)
 
-      const cap = `╭─「 ✦ 𓆩🔞𓆪 ᴠɪᴅᴇᴏ ʜᴇɴᴛᴀɪ ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${videoInfo.title}\n╰➺ ✧ *Vistas:* ${videoInfo.views}\n╰➺ ✧ *Likes:* ${videoInfo.likes}\n╰➺ ✧ *Peso:* ${peso}\n╰➺ ✧ *Dislikes:* ${videoInfo.dislikes}\n╰➺ ✧ *Link:* ${text}\n\n> PAIN COMMUNITY`
+      const cap = `╭─「 ✦ 𓆩🔞𓆪 ᴠɪᴅᴇᴏ ʜᴇɴᴛᴀɪ ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${videoInfo.title}\n╰➺ ✧ *Vistas:* ${videoInfo.views}\n╰➺ ✧ *Likes:* ${videoInfo.likes}\n╰➺ ✧ *Peso:* ${peso}\n╰➺ ✧ *Dislikes:* ${videoInfo.dislikes}\n╰➺ ✧ *Link:* ${text}\n\n> X ADM`
 
       await conn.sendMessage(m.chat, {
         video: { url: videoUrl },
@@ -50,7 +50,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     } catch (e) {
       console.error('Error en descarga Hentai:', e)
       await conn.sendMessage(m.chat, {
-        text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Verifica la URL*\n\n> PAIN COMMUNITY`,
+        text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Verifica la URL*\n\n> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo
         }
@@ -61,7 +61,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 
  
   await conn.sendMessage(m.chat, {
-    text: `╭─「 ✦ 𓆩🔥𓆪 ʙᴜsᴄᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Estado:* Procesando...\n\n> PAIN COMMUNITY`,
+    text: `╭─「 ✦ 𓆩🔥𓆪 ʙᴜsᴄᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Estado:* Procesando...\n\n> X ADM`,
     contextInfo: {
       ...rcanal.contextInfo
     }
@@ -70,7 +70,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   const results = await searchHentai(text)
   if (!results || results.length === 0) {
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩❌𓆪 ɴᴏ ʀᴇsᴜʟᴛᴀᴅᴏs ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Estado:* No se encontraron videos\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩❌𓆪 ɴᴏ ʀᴇsᴜʟᴛᴀᴅᴏs ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Estado:* No se encontraron videos\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -81,7 +81,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     `*${i + 1}.*\n╰➺ ✧ *Título:* ${res.titulo}\n╰➺ ✧ *Link:* ${res.url}`
   ).join('\n\n')
 
-  const caption = `╭─「 ✦ 𓆩🔞𓆪 ʀᴇsᴜʟᴛᴀᴅᴏs ᴅᴇ ʙᴜsǫᴜᴇᴅᴀ ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Resultados:* ${results.length}\n│\n${list}\n│\n╰➺ ✧ *Escribe solo el número (1-10) para descargar*\n╰➺ ✧ *Ejemplo: 3, 7, 1*\n╰➺ ✧ *O usa directamente la URL*\n\n> PAIN COMMUNITY`
+  const caption = `╭─「 ✦ 𓆩🔞𓆪 ʀᴇsᴜʟᴛᴀᴅᴏs ᴅᴇ ʙᴜsǫᴜᴇᴅᴀ ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Resultados:* ${results.length}\n│\n${list}\n│\n╰➺ ✧ *Escribe solo el número (1-10) para descargar*\n╰➺ ✧ *Ejemplo: 3, 7, 1*\n╰➺ ✧ *O usa directamente la URL*\n\n> X ADM`
 
   const { key } = await conn.sendMessage(m.chat, { 
     text: caption,
@@ -118,7 +118,7 @@ handler.before = async (m, { conn }) => {
   
   try {
     await conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Video:* ${n}/${session.result.length}\n╰➺ ✧ *Estado:* Descargando...\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Video:* ${n}/${session.result.length}\n╰➺ ✧ *Estado:* Descargando...\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -134,7 +134,7 @@ handler.before = async (m, { conn }) => {
     const videoUrl = videoInfo.videoUrl
     let peso = await size(videoInfo.videoUrl)
     
-    const cap = `╭─「 ✦ 𓆩🔞𓆪 ᴠɪᴅᴇᴏ ʜᴇɴᴛᴀɪ ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${videoInfo.title}\n╰➺ ✧ *Vistas:* ${videoInfo.views}\n╰➺ ✧ *Likes:* ${videoInfo.likes}\n╰➺ ✧ *Peso:* ${peso}\n╰➺ ✧ *Dislikes:* ${videoInfo.dislikes}\n╰➺ ✧ *Link:* ${link}\n\n> PAIN COMMUNITY`
+    const cap = `╭─「 ✦ 𓆩🔞𓆪 ᴠɪᴅᴇᴏ ʜᴇɴᴛᴀɪ ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${videoInfo.title}\n╰➺ ✧ *Vistas:* ${videoInfo.views}\n╰➺ ✧ *Likes:* ${videoInfo.likes}\n╰➺ ✧ *Peso:* ${peso}\n╰➺ ✧ *Dislikes:* ${videoInfo.dislikes}\n╰➺ ✧ *Link:* ${link}\n\n> X ADM`
     
     await conn.sendMessage(m.chat, {
       video: { url: videoUrl },
@@ -147,7 +147,7 @@ handler.before = async (m, { conn }) => {
   } catch (e) {
     console.error('Error en descarga Hentai:', e)
     await conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Inténtalo más tarde*\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Inténtalo más tarde*\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }

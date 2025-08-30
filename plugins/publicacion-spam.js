@@ -59,7 +59,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
       txt += `╰➺ *Texto:* ${global.db.data.publicaciones[m.chat].text.length > 30 ? global.db.data.publicaciones[m.chat].text.substring(0, 30) + '...' : global.db.data.publicaciones[m.chat].text || 'Sin texto'}\n`
       txt += `│\n`
       txt += `╰➺ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       await conn.sendMessage(m.chat, {
         text: txt,
@@ -102,7 +102,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
       txt += `│\n`
       txt += `╰➺ *Estado:* Desactivado\n`
       txt += `╰➺ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,
@@ -180,7 +180,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
       if (!global.db.data.publicaciones[m.chat].enabled) {
         txt += `╰➺ *Para activar:* ${usedPrefix}publicg on\n`
       }
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,
@@ -238,7 +238,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
       }
       statusTxt += `│\n`
       statusTxt += `╰➺ *Usuario:* @${m.sender.split('@')[0]}\n`
-      statusTxt += `\n> PAIN COMMUNITY`
+      statusTxt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: statusTxt,
@@ -266,7 +266,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
       
       debugInfo += `│\n`
       debugInfo += `╰➺ *Usuario:* @${m.sender.split('@')[0]}\n`
-      debugInfo += `\n> PAIN COMMUNITY`
+      debugInfo += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: debugInfo,
@@ -304,7 +304,7 @@ let handler = async (m, { conn, args, usedPrefix }) => {
       
       allInfo += `│\n`
       allInfo += `╰➺ *Usuario:* @${m.sender.split('@')[0]}\n`
-      allInfo += `\n> PAIN COMMUNITY`
+      allInfo += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: allInfo,

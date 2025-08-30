@@ -10,8 +10,8 @@ function clockString(ms) {
 
 let handler = async (m, { conn, usedPrefix }) => {
   try {
-    let nombreBot = global.namebot || 'PAIN BOT'
-    let imgBot = 'https://files.catbox.moe/iomah1.jpg'
+    let nombreBot = global.namebot || 'X ADM'
+    let imgBot = 'https://files.catbox.moe/wooqer.jpg'
     let mainImg = './storage/img/menu3.jpg'
     const botActual = conn.user?.jid?.split('@')[0]?.replace(/\D/g, '')
     const tipo = botActual === '+51958333972'.replace(/\D/g, '') ? 'Principal Bot' : 'Sub Bot'
@@ -118,44 +118,19 @@ let handler = async (m, { conn, usedPrefix }) => {
 ╭─「 ✦ 𓆩🪐𓆪 ʙɪᴇɴᴠᴇɴɪᴅᴏ ✦ 」─╮
 │
 ╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}
-│
 ╰➺ ✧ *Rol:* ${userRole}
-│
 ╰➺ ✧ *Bot:* ${nombreBot}
-│
-╰➺ ✧ *Tipo:* ${tipo}
-│
-╰➺ ✧ *Librería:* Baileys MD
-│
 ╰➺ ✧ *Tiempo Activo:* ${botFormatUptime}
-│
-╰➺ ✧ *Plugins:* ${totalf}
-│
 ╰➺ ✧ *Memoria:* ${memoryMB} MB
 
-
 ╭─「 ✦ 𓆩👑𓆪 ᴘʀᴏᴘɪᴇᴛᴀʀɪᴏs ✦ 」─╮
-│
-│
-╰➺ ✧ +51901437507 ➺ Sunkovv
-
-
-╭─「 ✦ 𓆩💎𓆪 ᴄᴀɴᴀʟᴇs ᴏғɪᴄɪᴀʟᴇs ✦ 」─╮
-│
-╰➺ ✧ https://whatsapp.com/channel/0029Vb5Vinf72WTo11c5hJ3O
-
+╰➺ ✧ +51957715814 ➺ X VENTAS
 
 ╭─「 ✦ 𓆩🐦‍🔥𓆪 ᴄᴏᴍᴀɴᴅᴏs ᴅɪsᴘᴏɴɪʙʟᴇs ✦ 」─╮
 │
-╰➺ ✧ *Owners* 𖤓
-│   • ${usedPrefix}verplugin <nombre.js>
-│   • ${usedPrefix}replugin <nombre.js>
-│   • ${usedPrefix}addplugin <nombre.js>
-│   • ${usedPrefix}nameplugins <archivo.js> > <nuevo.js>
 │   • ${usedPrefix}update
 │   • ${usedPrefix}restart
 │   • ${usedPrefix}subme <mensaje>
-│
 ╰➺ ✧ *Sub-bots* 𖤓
 │   • ${usedPrefix}qr
 │   • ${usedPrefix}code
@@ -166,12 +141,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 │   • ${usedPrefix}setbotimg
 │   • ${usedPrefix}setautoread
 │
-╰➺ ✧ *Economía RPG* 𖤓
-│   • ${usedPrefix}balance
-│   • ${usedPrefix}bal
-│   • ${usedPrefix}coins
-│   • ${usedPrefix}transf @usuario <cantidad>
-│
 ╰➺ ✧ *Perfiles RPG* 𖤓
 │   • ${usedPrefix}perfil
 │   • ${usedPrefix}setbirth <fecha>
@@ -180,16 +149,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 │   • ${usedPrefix}setgenre <hombre/mujer>
 │   • ${usedPrefix}birthdays
 │   • ${usedPrefix}setname <nombre>
-│
-╰➺ ✧ *Tops RPG* 𖤓
-│   • ${usedPrefix}topcoins
-│
-│
-╰➺ ✧ *Juegos RPG* 𖤓
-│   • ${usedPrefix}dado
-│   • ${usedPrefix}daily / day
-│
-│
 │
 ╰➺ ✧ *Búsquedas* 𖤓
 │   • ${usedPrefix}google <búsqueda>
@@ -277,16 +236,13 @@ let handler = async (m, { conn, usedPrefix }) => {
 │   • ${usedPrefix}hentai <búsqueda>
 │   • ${usedPrefix}xvideos <url>
 │   • ${usedPrefix}xvideos <búsqueda>
-│
-│
-╰────────────────╯
 
-> PAIN COMMUNITY`.trim()
+> X ADM`.trim()
 
     
     const externalAdReply = {
       title: `✦ ${nombreBot} | WhatsApp Bot\n`,
-      body: `𝗖𝗼𝗺𝗮𝗻𝗱𝗼𝘀 𝗱𝗲 ${nombreBot} By @Sunkovv`,
+      body: `𝗖𝗼𝗺𝗮𝗻𝗱𝗼𝘀 𝗱𝗲 ${nombreBot} By @X VENTAS`,
       thumbnailUrl: imgBot,
       mediaType: 1,
       showAdAttribution: true,

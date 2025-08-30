@@ -12,7 +12,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
   const configPath = join('./Serbot', botActual, 'config.json')
 
-  let nombreBot = global.namebot || 'PAIN BOT'
+  let nombreBot = global.namebot || 'X ADM'
 
   if (fs.existsSync(configPath)) {
     try {

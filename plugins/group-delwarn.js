@@ -47,7 +47,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
   const groupName = groupMetadata.subject
 
   return conn.sendMessage(m.chat, {
-    text: `╭─「 ✅ 𝗔𝗱𝘃𝗲𝗿𝘁𝗲𝗻𝗰𝗶𝗮𝘀 𝗘𝗹𝗶𝗺𝗶𝗻𝗮𝗱𝗮𝘀 ✅ 」─╮\n│\n╰➺ ✧ *Usuario:* @${who.split('@')[0]}\n╰➺ ✧ *Admin:* @${m.sender.split('@')[0]}\n╰➺ ✧ *Advertencias eliminadas:* ${previousWarnings}\n│\n╰➺ ✧ *Grupo:* ${groupName}\n╰➺ ✧ *Estado:* Expediente limpio ✅\n\n> PAIN COMMUNITY`,
+    text: `╭─「 ✅ 𝗔𝗱𝘃𝗲𝗿𝘁𝗲𝗻𝗰𝗶𝗮𝘀 𝗘𝗹𝗶𝗺𝗶𝗻𝗮𝗱𝗮𝘀 ✅ 」─╮\n│\n╰➺ ✧ *Usuario:* @${who.split('@')[0]}\n╰➺ ✧ *Admin:* @${m.sender.split('@')[0]}\n╰➺ ✧ *Advertencias eliminadas:* ${previousWarnings}\n│\n╰➺ ✧ *Grupo:* ${groupName}\n╰➺ ✧ *Estado:* Expediente limpio ✅\n\n> X ADM`,
     contextInfo: {
       ...rcanal.contextInfo,
       mentionedJid: [who, m.sender]

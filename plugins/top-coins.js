@@ -42,7 +42,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       txt += `│\n`
     })
 
-    txt += `\n> PAIN COMMUNITY`
+    txt += `\n> X ADM`
 
    
     const mentionedJid = allUsers.map(user => user.jid)

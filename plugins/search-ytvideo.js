@@ -5,7 +5,7 @@ const BaseYuxinzesite = "http://speedhosting.cloud:2009"
 const handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) {
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩🎬𓆪 ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ ✦ 」─╮\n│\n╰➺ ✧ *Uso:* ${usedPrefix}video <nombre>\n╰➺ ✧ *Ejemplo:* ${usedPrefix}video carrusel\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩🎬𓆪 ᴠɪᴅᴇᴏ ᴘʟᴀʏᴇʀ ✦ 」─╮\n│\n╰➺ ✧ *Uso:* ${usedPrefix}video <nombre>\n╰➺ ✧ *Ejemplo:* ${usedPrefix}video carrusel\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -14,7 +14,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 
  
   await conn.sendMessage(m.chat, {
-    text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Video:* ${text}\n╰➺ ✧ *Estado:* Buscando...\n\n> PAIN COMMUNITY`,
+    text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Video:* ${text}\n╰➺ ✧ *Estado:* Buscando...\n\n> X ADM`,
     contextInfo: {
       ...rcanal.contextInfo
     }
@@ -26,7 +26,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     
     if (!ytsearch.resultado || ytsearch.resultado.length === 0) {
       return conn.sendMessage(m.chat, {
-        text: `╭─「 ✦ 𓆩❌𓆪 ɴᴏ ʀᴇsᴜʟᴛᴀᴅᴏs ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Estado:* No se encontró el video\n\n> PAIN COMMUNITY`,
+        text: `╭─「 ✦ 𓆩❌𓆪 ɴᴏ ʀᴇsᴜʟᴛᴀᴅᴏs ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Estado:* No se encontró el video\n\n> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo
         }
@@ -36,7 +36,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     const videoResult = ytsearch.resultado[0]
     const videoUrl = `${BaseYuxinzesite}/download/play-video?url=${videoResult.url}`
 
-    const caption = `╭─「 ✦ 𓆩🎬𓆪 ᴠɪᴅᴇᴏ ᴅᴇsᴄᴀʀɢᴀᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${videoResult.title}\n╰➺ ✧ *Autor:* ${videoResult.author.name}\n╰➺ ✧ *Publicado:* ${videoResult.ago}\n╰➺ ✧ *Duración:* ${videoResult.timestamp}\n╰➺ ✧ *Vistas:* ${videoResult.views}\n╰➺ ✧ *Descripción:* ${videoResult.description}\n╰➺ ✧ *URL:* ${videoResult.url}\n\n> PAIN COMMUNITY`
+    const caption = `╭─「 ✦ 𓆩🎬𓆪 ᴠɪᴅᴇᴏ ᴅᴇsᴄᴀʀɢᴀᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${videoResult.title}\n╰➺ ✧ *Autor:* ${videoResult.author.name}\n╰➺ ✧ *Publicado:* ${videoResult.ago}\n╰➺ ✧ *Duración:* ${videoResult.timestamp}\n╰➺ ✧ *Vistas:* ${videoResult.views}\n╰➺ ✧ *Descripción:* ${videoResult.description}\n╰➺ ✧ *URL:* ${videoResult.url}\n\n> X ADM`
 
    
     await conn.sendMessage(m.chat, {
@@ -50,7 +50,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   } catch (e) {
     console.error('Error en video:', e)
     await conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Inténtalo más tarde.*\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Inténtalo más tarde.*\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }

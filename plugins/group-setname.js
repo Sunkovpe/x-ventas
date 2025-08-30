@@ -40,7 +40,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin, 
     await conn.groupUpdateSubject(m.chat, newName)
 
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𝗡𝗼𝗺𝗯𝗿𝗲 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗱𝗼 ✦ 」─╮\n│\n╰➺ ✧ *Antes:* ${oldName}\n╰➺ ✧ *Ahora:* ${newName}\n│\n╰➺ ✧ *Por:* @${m.sender.split('@')[0]}\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𝗡𝗼𝗺𝗯𝗿𝗲 𝗮𝗰𝘁𝘂𝗮𝗹𝗶𝘇𝗮𝗱𝗼 ✦ 」─╮\n│\n╰➺ ✧ *Antes:* ${oldName}\n╰➺ ✧ *Ahora:* ${newName}\n│\n╰➺ ✧ *Por:* @${m.sender.split('@')[0]}\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo,
         mentionedJid: [m.sender]

@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix, command, args, text, isOwner, isAdmi
       global.db.data.botGroups[m.chat] = true
       await global.db.write()
       
-      const message = `╭─「 ✦ 𓆩🤖𓆪 ʙᴏᴛ ᴀᴄᴛɪᴠᴀᴅᴏ ✦ 」─╮\n\n╰➺ ✧ *Grupo:* ${await conn.getName(m.chat)}\n╰➺ ✧ *Estado:* 🟢 *ACTIVADO*\n╰➺ ✧ *Por:* @${m.sender.split('@')[0]}\n\n> PAIN COMMUNITY`
+      const message = `╭─「 ✦ 𓆩🤖𓆪 ʙᴏᴛ ᴀᴄᴛɪᴠᴀᴅᴏ ✦ 」─╮\n\n╰➺ ✧ *Grupo:* ${await conn.getName(m.chat)}\n╰➺ ✧ *Estado:* 🟢 *ACTIVADO*\n╰➺ ✧ *Por:* @${m.sender.split('@')[0]}\n\n> X ADM`
       
       await conn.sendMessage(m.chat, {
         text: message,
@@ -39,7 +39,7 @@ let handler = async (m, { conn, usedPrefix, command, args, text, isOwner, isAdmi
       global.db.data.botGroups[m.chat] = false
       await global.db.write()
       
-      const message = `╭─「 ✦ 𓆩🤖𓆪 ʙᴏᴛ ᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ ✦ 」─╮\n\n╰➺ ✧ *Grupo:* ${await conn.getName(m.chat)}\n╰➺ ✧ *Estado:* 🔴 *DESACTIVADO*\n╰➺ ✧ *Por:* @${m.sender.split('@')[0]}\n\n> PAIN COMMUNITY`
+      const message = `╭─「 ✦ 𓆩🤖𓆪 ʙᴏᴛ ᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ ✦ 」─╮\n\n╰➺ ✧ *Grupo:* ${await conn.getName(m.chat)}\n╰➺ ✧ *Estado:* 🔴 *DESACTIVADO*\n╰➺ ✧ *Por:* @${m.sender.split('@')[0]}\n\n> X ADM`
       
       await conn.sendMessage(m.chat, {
         text: message,

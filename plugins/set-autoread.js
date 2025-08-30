@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
   const botActual = conn.user?.jid?.split('@')[0].replace(/\D/g, '')
   const configPath = join('./Serbot', botActual, 'config.json')
 
-  let nombreBot = global.namebot || 'PAIN BOT'
+  let nombreBot = global.namebot || 'X ADM'
 
   if (fs.existsSync(configPath)) {
     try {
@@ -19,7 +19,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
   const botPath = path.join('./Serbot', senderNumber)
 
   if (!fs.existsSync(botPath)) {
-    return conn.reply(m.chat, `¿Hola, cómo te va?\n\n* No encontré una sesión activa vinculada a tu número\n\n* Puede que aún no te hayas conectado\n\n* Si deseas iniciar una nueva, estaré aquí para ayudarte\n\n> PAIN COMMUNITY`, m, rcanal)
+    return conn.reply(m.chat, `¿Hola, cómo te va?\n\n* No encontré una sesión activa vinculada a tu número\n\n* Puede que aún no te hayas conectado\n\n* Si deseas iniciar una nueva, estaré aquí para ayudarte\n\n> X ADM`, m, rcanal)
   }
 
   const configPathUser = path.join(botPath, 'config.json')
@@ -46,7 +46,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
 ╰➺ ✧ Marca automáticamente los mensajes como leídos
 ╰➺ ✧ Aparece el doble check azul en WhatsApp
 
-> PAIN COMMUNITY`, m, rcanal)
+> X ADM`, m, rcanal)
   }
 
   const action = text.toLowerCase().trim()
@@ -59,7 +59,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
 ╰➺ ✧ *Ahora tu sub-bot marcará automáticamente los mensajes como leídos*
 ╰➺ ✧ *Aparecerá el doble check azul en todos los chats*
 
-> PAIN COMMUNITY`, m, rcanal)
+> X ADM`, m, rcanal)
   } else if (action === 'off' || action === 'desactivar' || action === 'disable') {
     config.autoRead = false
     await conn.reply(m.chat, `╭─「 ✦ 𓆩❌𓆪 ᴀᴜᴛᴏ-ʟᴇᴇʀ ᴅᴇsᴀᴄᴛɪᴠᴀᴅᴏ ✦ 」─╮
@@ -68,7 +68,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
 ╰➺ ✧ *Tu sub-bot ya no marcará automáticamente los mensajes como leídos*
 ╰➺ ✧ *Los mensajes mantendrán el check gris*
 
-> PAIN COMMUNITY`, m, rcanal)
+> X ADM`, m, rcanal)
   } else {
     return conn.reply(m.chat, `╭─「 ✦ 𓆩❓𓆪 ᴜsᴏ ᴄᴏʀʀᴇᴄᴛᴏ ✦ 」─╮
 │
@@ -77,7 +77,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
 ╰➺ ✧ *.setautoread off* - Desactivar
 ╰➺ ✧ *.setautoread* - Ver estado actual
 
-> PAIN COMMUNITY`, m, rcanal)
+> X ADM`, m, rcanal)
   }
 
   try {

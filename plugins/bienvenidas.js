@@ -53,7 +53,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `╰➺ *Imágenes:* Foto del grupo (personalizables)\n`
       txt += `│\n`
       txt += `╰➺ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       await conn.sendMessage(m.chat, {
         text: txt,
@@ -73,7 +73,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
         `╰➺ *Hora:* ${new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })}\n` +
         `│\n` +
         `╰➺ *Bienvenido al grupo!*\n` +
-        `> PAIN COMMUNITY`
+        `> X ADM`
       
       const goodbyePreview = global.db.data.bienvenidas[m.chat].goodbyeMsg || 
         `╭─「 *ADIOS* 」─╮\n` +
@@ -86,7 +86,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
         `╰➺ *Hora:* ${new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })}\n` +
         `│\n` +
         `╰➺ *¡Que tengas un buen día!*\n` +
-        `> PAIN COMMUNITY`
+        `> X ADM`
       
       await conn.sendMessage(m.chat, {
         text: `《✧》*VISTA PREVIA ACTIVADA*\n\n*Mensaje de bienvenida:*\n${welcomePreview}\n\n*Mensaje de despedida:*\n${goodbyePreview}\n\n*Nota:* Las imágenes se mostrarán automáticamente con la foto del grupo.\n\n> Para personalizar las bienvenidas y despedidas usa el comando ${usedPrefix}welcome`
@@ -101,7 +101,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `│\n`
       txt += `╰➺ *Estado:* Desactivado\n`
       txt += `╰➺ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,
@@ -236,7 +236,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
           `╰➺ *Hora:* ${new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })}\n` +
           `│\n` +
           `╰➺ *Bienvenido al grupo!*\n` +
-          `> PAIN COMMUNITY`
+          `> X ADM`
         
         const finalWelcomeMsg = welcomeMsg
           .replace(/\${user}/g, await conn.getName(m.sender) || 'Usuario')
@@ -285,7 +285,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
           `╰➺ *Hora:* ${new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })}\n` +
           `│\n` +
           `╰➺ *¡Que tengas un buen día!*\n` +
-          `> PAIN COMMUNITY`
+          `> X ADM`
         
         const finalGoodbyeMsg = goodbyeMsg
           .replace(/\${user}/g, await conn.getName(m.sender) || 'Usuario')
@@ -335,7 +335,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `╰➺ *Imagen Despedida:* ${config.goodbyeImg || 'Foto del grupo'}\n`
       txt += `│\n`
       txt += `╰➺ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,
@@ -404,7 +404,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
         `╰➺ *Hora:* ${new Date().toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })}\n` +
         `│\n` +
         `╰➺ *Bienvenido al grupo!*\n` +
-        `> PAIN COMMUNITY`
+        `> X ADM`
       
       const finalTestMsg = testMsg
         .replace(/\${user}/g, await conn.getName(m.sender) || 'Usuario')

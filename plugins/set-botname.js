@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
   const botActual = conn.user?.jid?.split('@')[0].replace(/\D/g, '')
   const configPath = join('./Serbot', botActual, 'config.json')
 
-  let nombreBot = global.namebot || 'PAIN BOT'
+  let nombreBot = global.namebot || 'X ADM'
 
   if (fs.existsSync(configPath)) {
     try {
@@ -19,11 +19,11 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
   const botPath = path.join('./Serbot', senderNumber)
 
   if (!fs.existsSync(botPath)) {
-    return conn.reply(m.chat, `¿Hola, cómo te va?\n\n* No encontré una sesión activa vinculada a tu número\n\n* Puede que aún no te hayas conectado\n\n* Si deseas iniciar una nueva, estaré aquí para ayudarte\n\n> PAIN COMMUNITY`, m, rcanal)
+    return conn.reply(m.chat, `¿Hola, cómo te va?\n\n* No encontré una sesión activa vinculada a tu número\n\n* Puede que aún no te hayas conectado\n\n* Si deseas iniciar una nueva, estaré aquí para ayudarte\n\n> X ADM`, m, rcanal)
   }
 
   if (!text) return conn.reply(m.chat, `Necesito un nombre para continuar, cielo.
-¿Podrías decírmelo con dulzura?\n\nEjemplo:\n\n* .setbotname BLACKPINK\n* .setbotname ${nombreBot}\n\n> PAIN COMMUNITY`, m, rcanal)
+¿Podrías decírmelo con dulzura?\n\nEjemplo:\n\n* .setbotname BLACKPINK\n* .setbotname ${nombreBot}\n\n> X ADM`, m, rcanal)
 
   const configPathUser = path.join(botPath, 'config.json')
   let config = {}
@@ -38,7 +38,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
 
   try {
     fs.writeFileSync(configPathUser, JSON.stringify(config, null, 2))
-    return conn.reply(m.chat, `¡Nuevo nombre recibido con gracia!\n\n* Nombre (${text.trim()})\n\n* Si cambias de opinión, puedes volver a nombrarme cuando gustes\n\n> PAIN COMMUNITY`, m, rcanal)
+    return conn.reply(m.chat, `¡Nuevo nombre recibido con gracia!\n\n* Nombre (${text.trim()})\n\n* Si cambias de opinión, puedes volver a nombrarme cuando gustes\n\n> X ADM`, m, rcanal)
   } catch {}
 }
 

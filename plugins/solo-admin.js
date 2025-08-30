@@ -33,7 +33,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `╰➺ ✧ *Acceso:* Admins del Grupo + Owners\n`
       txt += `│\n`
       txt += `╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,
@@ -53,7 +53,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `╰➺ ✧ *Acceso:* Libre para Todos\n`
       txt += `│\n`
       txt += `╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,
@@ -75,7 +75,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isAdmin, isBotAdmin }
       txt += `╰➺ ✧ *Descripción:*\n`
       txt += `╰➺ ✧ Restringe el bot solo a admins y owners\n`
       txt += `╰➺ ✧ del grupo cuando está activado\n`
-      txt += `\n> PAIN COMMUNITY`
+      txt += `\n> X ADM`
       
       return conn.sendMessage(m.chat, {
         text: txt,

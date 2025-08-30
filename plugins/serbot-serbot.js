@@ -19,7 +19,7 @@ const rcanal = global.rcanal || {
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363403162100537@newsletter',
       serverMessageId: 100,
-      newsletterName: 'PAIN COMMUNITY'
+      newsletterName: 'X ADM'
     }
   }
 }
@@ -118,7 +118,7 @@ export async function AYBot(options) {
 ╰➺ ✧ .code - Para código de vinculación
 ╰➺ ✧ .qr - Para código QR
 
-> PAIN COMMUNITY`,
+> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo
         }
@@ -186,7 +186,7 @@ export async function AYBot(options) {
 ╰➺ ✧ Este código QR caduca en 30 segundos
 ╰➺ ✧ Escanea con calma.
 
-> PAIN COMMUNITY`
+> X ADM`
 
   let sendQR = await conn.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), "qrcode.png", txt, m, null, rcanal)
 
@@ -217,7 +217,7 @@ export async function AYBot(options) {
 ╰➺ ✧ Válido solo para tu número
 ╰➺ ✧ Caduca en 30 segundos
 
-> PAIN COMMUNITY`
+> X ADM`
         
         let sendTxt = await conn.sendMessage(m.chat, {
           text: txt,
@@ -337,7 +337,7 @@ export async function AYBot(options) {
 ╰➺ ✧ *.setautoread on* - Activar auto-leer
 ╰➺ ✧ *.setautoread off* - Desactivar auto-leer
 
-> PAIN COMMUNITY`
+> X ADM`
 
           
           

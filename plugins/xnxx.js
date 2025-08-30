@@ -4,7 +4,7 @@ import cheerio from 'cheerio'
 const handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) {
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩🔞𓆪 ᴠɪᴅᴇᴏs ɴsғᴡ ✦ 」─╮\n│\n╰➺ ✧ *Uso:* ${usedPrefix}xnxx <búsqueda>\n╰➺ ✧ *Ejemplo:* ${usedPrefix}xnxx anime\n╰➺ ✧ *URL:* ${usedPrefix}xnxx <url>\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩🔞𓆪 ᴠɪᴅᴇᴏs ɴsғᴡ ✦ 」─╮\n│\n╰➺ ✧ *Uso:* ${usedPrefix}xnxx <búsqueda>\n╰➺ ✧ *Ejemplo:* ${usedPrefix}xnxx anime\n╰➺ ✧ *URL:* ${usedPrefix}xnxx <url>\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -16,7 +16,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   
   if (isUrl) {
     await conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *URL:* ${text}\n╰➺ ✧ *Estado:* Descargando...\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *URL:* ${text}\n╰➺ ✧ *Estado:* Descargando...\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -26,7 +26,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
       const res = await xnxxdl(text)
       const { dur, qual, views } = res.result.info
       
-      const txt = `╭─「 ✦ 𓆩🔞𓆪 ᴠɪᴅᴇᴏ ᴅᴇsᴄᴀʀɢᴀᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${res.result.title}\n╰➺ ✧ *Duración:* ${dur || 'Desconocida'}\n╰➺ ✧ *Calidad:* ${qual || 'Desconocida'}\n╰➺ ✧ *Vistas:* ${views || 'Desconocidas'}\n\n> PAIN COMMUNITY`
+      const txt = `╭─「 ✦ 𓆩🔞𓆪 ᴠɪᴅᴇᴏ ᴅᴇsᴄᴀʀɢᴀᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${res.result.title}\n╰➺ ✧ *Duración:* ${dur || 'Desconocida'}\n╰➺ ✧ *Calidad:* ${qual || 'Desconocida'}\n╰➺ ✧ *Vistas:* ${views || 'Desconocidas'}\n\n> X ADM`
       
       const dll = res.result.files.high || res.result.files.low
       if (!dll) throw new Error('No se pudo obtener el enlace de descarga')
@@ -42,7 +42,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     } catch (e) {
       console.error('Error en descarga XNXX:', e)
       await conn.sendMessage(m.chat, {
-        text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Verifica la URL*\n\n> PAIN COMMUNITY`,
+        text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Verifica la URL*\n\n> X ADM`,
         contextInfo: {
           ...rcanal.contextInfo
         }
@@ -53,7 +53,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 
   
   await conn.sendMessage(m.chat, {
-    text: `╭─「 ✦ 𓆩🔥𓆪 ʙᴜsᴄᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Estado:* Procesando...\n\n> PAIN COMMUNITY`,
+    text: `╭─「 ✦ 𓆩🔥𓆪 ʙᴜsᴄᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Estado:* Procesando...\n\n> X ADM`,
     contextInfo: {
       ...rcanal.contextInfo
     }
@@ -62,7 +62,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   const res = await search(encodeURIComponent(text))
   if (!res.result?.length) {
     return conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩❌𓆪 ɴᴏ ʀᴇsᴜʟᴛᴀᴅᴏs ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *No se encontraron videos*\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩❌𓆪 ɴᴏ ʀᴇsᴜʟᴛᴀᴅᴏs ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *No se encontraron videos*\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -73,7 +73,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     `*${i + 1}.*\n╰➺ ✧ *Título:* ${v.title}\n╰➺ ✧ *Info:* ${v.info || 'Sin información'}\n╰➺ ✧ *Link:* ${v.link}`
   ).join('\n\n')
 
-  const caption = `╭─「 ✦ 𓆩🔞𓆪 ʀᴇsᴜʟᴛᴀᴅᴏs ᴅᴇ ʙᴜsǫᴜᴇᴅᴀ ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Resultados:* ${res.result.length}\n│\n${list}\n│\n╰➺ ✧ *Escribe solo el número (1-10) para descargar*\n╰➺ ✧ *Ejemplo: 3, 7, 1*\n╰➺ ✧ *O usa directamente la URL*\n\n> PAIN COMMUNITY`
+  const caption = `╭─「 ✦ 𓆩🔞𓆪 ʀᴇsᴜʟᴛᴀᴅᴏs ᴅᴇ ʙᴜsǫᴜᴇᴅᴀ ✦ 」─╮\n│\n╰➺ ✧ *Búsqueda:* ${text}\n╰➺ ✧ *Resultados:* ${res.result.length}\n│\n${list}\n│\n╰➺ ✧ *Escribe solo el número (1-10) para descargar*\n╰➺ ✧ *Ejemplo: 3, 7, 1*\n╰➺ ✧ *O usa directamente la URL*\n\n> X ADM`
 
   const { key } = await conn.sendMessage(m.chat, { 
     text: caption,
@@ -110,7 +110,7 @@ handler.before = async (m, { conn }) => {
   
   try {
     await conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Video:* ${n}/${session.result.length}\n╰➺ ✧ *Estado:* Descargando...\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩🕒𓆪 ᴘʀᴏᴄᴇsᴀɴᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Video:* ${n}/${session.result.length}\n╰➺ ✧ *Estado:* Descargando...\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }
@@ -120,7 +120,7 @@ handler.before = async (m, { conn }) => {
     const res = await xnxxdl(link)
     const { dur, qual, views } = res.result.info
     
-    const txt = `╭─「 ✦ 𓆩🔞𓆪 ᴠɪᴅᴇᴏ ᴅᴇsᴄᴀʀɢᴀᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${res.result.title}\n╰➺ ✧ *Duración:* ${dur || 'Desconocida'}\n╰➺ ✧ *Calidad:* ${qual || 'Desconocida'}\n╰➺ ✧ *Vistas:* ${views || 'Desconocidas'}\n\n> PAIN COMMUNITY`
+    const txt = `╭─「 ✦ 𓆩🔞𓆪 ᴠɪᴅᴇᴏ ᴅᴇsᴄᴀʀɢᴀᴅᴏ ✦ 」─╮\n│\n╰➺ ✧ *Título:* ${res.result.title}\n╰➺ ✧ *Duración:* ${dur || 'Desconocida'}\n╰➺ ✧ *Calidad:* ${qual || 'Desconocida'}\n╰➺ ✧ *Vistas:* ${views || 'Desconocidas'}\n\n> X ADM`
     
     const dll = res.result.files.high || res.result.files.low
     if (!dll) throw new Error('No se pudo obtener el enlace de descarga')
@@ -136,7 +136,7 @@ handler.before = async (m, { conn }) => {
   } catch (e) {
     console.error('Error en descarga XNXX:', e)
     await conn.sendMessage(m.chat, {
-      text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Inténtalo más tarde*\n\n> PAIN COMMUNITY`,
+      text: `╭─「 ✦ 𓆩❌𓆪 ᴇʀʀᴏʀ ✦ 」─╮\n│\n╰➺ ✧ *Error:* ${e.message}\n╰➺ ✧ *Inténtalo más tarde*\n\n> X ADM`,
       contextInfo: {
         ...rcanal.contextInfo
       }

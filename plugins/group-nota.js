@@ -51,7 +51,7 @@ let handler = async (m, { conn, args, participants, isAdmin, isBotAdmin, isOwner
   const groupName = groupMetadata.subject
 
   return conn.sendMessage(m.chat, {
-    text: `╭─「 📝 𝗡𝗼𝘁𝗮 𝗔𝗴𝗿𝗲𝗴𝗮𝗱𝗮 📝 」─╮\n│\n╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n╰➺ ✧ *Contenido:* ${noteContent}\n╰➺ ✧ *Caracteres:* ${noteContent.length}/250\n│\n╰➺ ✧ *Grupo:* ${groupName}\n╰➺ ✧ *Expira:* En 24 horas\n\n> PAIN COMMUNITY`,
+    text: `╭─「 📝 𝗡𝗼𝘁𝗮 𝗔𝗴𝗿𝗲𝗴𝗮𝗱𝗮 📝 」─╮\n│\n╰➺ ✧ *Usuario:* @${m.sender.split('@')[0]}\n╰➺ ✧ *Contenido:* ${noteContent}\n╰➺ ✧ *Caracteres:* ${noteContent.length}/250\n│\n╰➺ ✧ *Grupo:* ${groupName}\n╰➺ ✧ *Expira:* En 24 horas\n\n> X ADM`,
     contextInfo: {
       ...rcanal.contextInfo,
       mentionedJid: [m.sender]

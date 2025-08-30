@@ -76,7 +76,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     txt += `│\n`
     txt += `╰➺ *Para activar:* ${usedPrefix}publicg on\n`
     txt += `╰➺ *Para desactivar:* ${usedPrefix}publicg off\n`
-    txt += `\n> PAIN COMMUNITY`
+    txt += `\n> X ADM`
     
     await conn.sendMessage(m.chat, {
       text: txt,
