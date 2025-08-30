@@ -1,4 +1,4 @@
-console.log('⧉ Inicializando Pain...')
+console.log('⧉ Inicializando x adm...')
 
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
@@ -10,7 +10,7 @@ import cfonts from 'cfonts'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(__dirname)
 
-cfonts.say('PAIN\nBOT', {
+cfonts.say('X\nADM', {
   font: 'block',
   align: 'center',
   gradient: ['cyan', 'blue']
@@ -35,6 +35,23 @@ async function launch(scripts) {
       exec: args[0],
       args: args.slice(1),
     })
+
+    let child = fork()
+
+    child.on('exit', (code) => {
+      isWorking = false
+      launch(scripts)
+
+      if (code === 0) return
+      watchFile(args[0], () => {
+        unwatchFile(args[0])
+        launch(scripts)
+      })
+    })
+  }
+}
+
+launch(['main.js'])    })
 
     let child = fork()
 
