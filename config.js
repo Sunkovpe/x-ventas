@@ -3,16 +3,12 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['51901437507', 'Sunkovv', true],
-  ['584125888002', 'Gxbo(Mod)', true],
-  ['5219991034993', 'Kevin(Mod)', true],
+  ['51957715814', 'X VENTAS', true],
 ]
 
 
 global.ownerLid = [
-  ['114263544885392', 'Sunkovv', true],
-  ['58540639154396', 'Kevin', true],
-  ['270613105139841', 'Gxbo', true],
+  ['77206885785728', 'X-VENTAS', true],
 
 
 ]
@@ -21,12 +17,12 @@ global.sessions = 'Sessions'
 global.bot = 'Serbot' 
 global.AFBots = true
 
-global.packname = '𓆩 𝗣𝗔𝗜𝗡 𝗖𝗢𝗠𝗠𝗨𝗡𝗜𝗧𝗬 𓆪'
-global.namebot = 'PAIN BOT'
-global.author = 'Sunkovv'
+global.packname = 'X ADM'
+global.namebot = 'X-ADM'
+global.author = 'X VENTAS'
 
 
-global.canal = 'https://whatsapp.com/channel/0029Vb5Vinf72WTo11c5hJ3O'
+global.canal = 'https://whatsapp.com/channel/0029VbAfIxz9WtC9yM4R5g2x'
 
 global.ch = {
 ch1: '120363403162100537@newsletter',
