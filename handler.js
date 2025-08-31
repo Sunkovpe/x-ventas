@@ -720,6 +720,13 @@ if (m.text && !commandExecuted && !m.commandExecuted) {
   
   if (!m.isGroup) return
   
+ 
+  if (m.isGroup && global.db.data.soloAdmin && global.db.data.soloAdmin[m.chat] === true) {
+    if (!isAdmin && !isOwner) {
+      return
+    }
+  }
+  
   const str2Regex = str => str.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&')
   let _prefix = conn.prefix ? conn.prefix : global.prefix
   let match = (_prefix instanceof RegExp ?  
