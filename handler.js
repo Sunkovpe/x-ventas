@@ -290,17 +290,6 @@ for (let plugin of processedPlugins) {
     
     if (m.isGroup && global.db.data.soloAdmin && global.db.data.soloAdmin[m.chat] === true) {
       if (!isAdmin && !isOwner) {
-        try {
-          await this.sendMessage(m.chat, {
-            text: `╭─「 ✦ 🔐 ᴍᴏᴅᴏ sᴏʟᴏ-ᴀᴅᴍɪɴs ✦ 」─╮\n│\n╰➺ ✧ @${m.sender.split('@')[0]} el bot está en\n╰➺ ✧ modo *Solo Administradores*\n│\n╰➺ ✧ Solo admins del grupo y\n╰➺ ✧ owners del bot pueden usar comandos\n│\n╰➺ ✧ *Estado:* 🔐 Restringido\n\n> X ADM`,
-            contextInfo: {
-              ...rcanal.contextInfo,
-              mentionedJid: [m.sender]
-            }
-          }, { quoted: m })
-        } catch (error) {
-          console.error('Error en solo-admin:', error)
-        }
         return
       }
     }
